@@ -1,0 +1,4665 @@
+format-version: 1.2
+date: 12:11:2008 13:11
+saved-by: caripark
+auto-generated-by: OBO-Edit 2.000-beta50
+default-namespace: ATO_namespace
+
+[Term]
+id: ATO:0000000
+name: Trait
+
+[Term]
+id: ATO:0000001
+name: Development trait
+is_a: ATO:0000000 ! Trait
+
+[Term]
+id: ATO:0000002
+name: Exterior trait
+is_a: ATO:0000000 ! Trait
+
+[Term]
+id: ATO:0000003
+name: Immune function trait
+is_a: ATO:0000000 ! Trait
+
+[Term]
+id: ATO:0000004
+name: Product quality trait
+is_a: ATO:0000000 ! Trait
+
+[Term]
+id: ATO:0000005
+name: Production trait
+is_a: ATO:0000000 ! Trait
+
+[Term]
+id: ATO:0000006
+name: Reproduction trait
+is_a: ATO:0000000 ! Trait
+
+[Term]
+id: ATO:0000007
+name: growth
+relationship: part_of ATO:0000001 ! Development trait
+
+[Term]
+id: ATO:0000008
+name: physiology
+relationship: part_of ATO:0000001 ! Development trait
+
+[Term]
+id: ID:0000000
+name: conformation
+relationship: part_of ATO:0000002 ! Exterior trait
+created_by: caripark
+creation_date: 2008-11-10T10:09:36Z
+
+[Term]
+id: ID:0000001
+name: pigmentation
+relationship: part_of ATO:0000002 ! Exterior trait
+created_by: caripark
+creation_date: 2008-11-10T10:09:36Z
+
+[Term]
+id: ID:0000002
+name: behavioral
+relationship: part_of ATO:0000002 ! Exterior trait
+created_by: caripark
+creation_date: 2008-11-10T10:09:36Z
+
+[Term]
+id: ID:0000003
+name: defects
+relationship: part_of ATO:0000002 ! Exterior trait
+created_by: caripark
+creation_date: 2008-11-10T10:09:36Z
+
+[Term]
+id: ID:0000004
+name: age
+relationship: part_of ATO:0000002 ! Exterior trait
+created_by: caripark
+creation_date: 2008-11-10T10:09:36Z
+
+[Term]
+id: ID:0000005
+name: disease resistance
+relationship: part_of ATO:0000003 ! Immune function trait
+created_by: caripark
+creation_date: 2008-11-10T10:12:53Z
+
+[Term]
+id: ID:0000006
+name: mastitis
+relationship: part_of ATO:0000003 ! Immune function trait
+created_by: caripark
+creation_date: 2008-11-10T10:12:53Z
+
+[Term]
+id: ID:0000007
+name: parasite load
+relationship: part_of ATO:0000003 ! Immune function trait
+created_by: caripark
+creation_date: 2008-11-10T10:12:53Z
+
+[Term]
+id: ID:0000008
+name: parasite resistance
+relationship: part_of ATO:0000003 ! Immune function trait
+created_by: caripark
+creation_date: 2008-11-10T10:12:53Z
+
+[Term]
+id: ID:0000009
+name: postchallenge traits
+relationship: part_of ATO:0000003 ! Immune function trait
+created_by: caripark
+creation_date: 2008-11-10T10:12:53Z
+
+[Term]
+id: ID:0000010
+name: red blood cell mass
+relationship: part_of ATO:0000003 ! Immune function trait
+created_by: caripark
+creation_date: 2008-11-10T10:12:53Z
+
+[Term]
+id: ID:0000011
+name: immune capacity
+relationship: part_of ATO:0000003 ! Immune function trait
+created_by: caripark
+creation_date: 2008-11-10T10:12:53Z
+
+[Term]
+id: ID:0000012
+name: pathogen
+relationship: part_of ATO:0000003 ! Immune function trait
+created_by: caripark
+creation_date: 2008-11-10T10:12:53Z
+
+[Term]
+id: ID:0000013
+name: health other
+relationship: part_of ATO:0000003 ! Immune function trait
+created_by: caripark
+creation_date: 2008-11-10T10:12:53Z
+
+[Term]
+id: ID:0000014
+name: carcass
+relationship: part_of ATO:0000004 ! Product quality trait
+created_by: caripark
+creation_date: 2008-11-10T10:20:24Z
+
+[Term]
+id: ID:0000015
+name: egg quality
+relationship: part_of ATO:0000004 ! Product quality trait
+created_by: caripark
+creation_date: 2008-11-10T10:20:24Z
+
+[Term]
+id: ID:0000016
+name: meat quality
+relationship: part_of ATO:0000004 ! Product quality trait
+created_by: caripark
+creation_date: 2008-11-10T10:20:24Z
+
+[Term]
+id: ID:0000017
+name: feed intake
+relationship: part_of ATO:0000005 ! Production trait
+created_by: caripark
+creation_date: 2008-11-10T10:38:24Z
+
+[Term]
+id: ID:0000018
+name: lifetime production
+relationship: part_of ATO:0000005 ! Production trait
+created_by: caripark
+creation_date: 2008-11-10T10:38:24Z
+
+[Term]
+id: ID:0000019
+name: milk traits
+relationship: part_of ATO:0000005 ! Production trait
+created_by: caripark
+creation_date: 2008-11-10T10:38:24Z
+
+[Term]
+id: ID:0000020
+name: egg production
+relationship: part_of ATO:0000005 ! Production trait
+created_by: caripark
+creation_date: 2008-11-10T10:38:24Z
+
+[Term]
+id: ID:0000021
+name: production other
+relationship: part_of ATO:0000005 ! Production trait
+created_by: caripark
+creation_date: 2008-11-10T10:38:24Z
+
+[Term]
+id: ID:0000022
+name: digestive organ
+is_obsolete: true
+created_by: caripark
+creation_date: 2008-11-10T10:38:24Z
+
+[Term]
+id: ID:0000023
+name: feed conversion
+relationship: part_of ATO:0000005 ! Production trait
+created_by: caripark
+creation_date: 2008-11-10T10:38:24Z
+
+[Term]
+id: ID:0000024
+name: endocrine
+relationship: part_of ATO:0000006 ! Reproduction trait
+created_by: caripark
+creation_date: 2008-11-10T10:44:31Z
+
+[Term]
+id: ID:0000025
+name: fertility
+relationship: part_of ATO:0000006 ! Reproduction trait
+created_by: caripark
+creation_date: 2008-11-10T10:44:31Z
+
+[Term]
+id: ID:0000026
+name: life history
+relationship: part_of ATO:0000006 ! Reproduction trait
+created_by: caripark
+creation_date: 2008-11-10T10:44:31Z
+
+[Term]
+id: ID:0000027
+name: reproductive organ
+relationship: part_of ATO:0000006 ! Reproduction trait
+created_by: caripark
+creation_date: 2008-11-10T10:44:31Z
+
+[Term]
+id: ID:0000028
+name: other reproductive
+relationship: part_of ATO:0000006 ! Reproduction trait
+created_by: caripark
+creation_date: 2008-11-10T10:44:31Z
+
+[Term]
+id: ID:0000029
+name: 200 day wean weight
+comment: Cattle trait.
+relationship: part_of ATO:0000007 ! growth
+created_by: caripark
+creation_date: 2008-11-10T12:52:15Z
+
+[Term]
+id: ID:0000030
+name: 400 day weight
+comment: Cattle trait.
+relationship: part_of ATO:0000007 ! growth
+created_by: caripark
+creation_date: 2008-11-10T12:52:15Z
+
+[Term]
+id: ID:0000031
+name: adjusted weaning weight
+comment: Cattle trait.
+relationship: part_of ATO:0000007 ! growth
+created_by: caripark
+creation_date: 2008-11-10T12:52:15Z
+
+[Term]
+id: ID:0000032
+name: adjusted yearling weight
+comment: Cattle trait.
+relationship: part_of ATO:0000007 ! growth
+created_by: caripark
+creation_date: 2008-11-10T12:52:15Z
+
+[Term]
+id: ID:0000033
+name: average daily gain
+relationship: part_of ATO:0000007 ! growth
+relationship: part_of ID:0000017 ! feed intake
+created_by: caripark
+creation_date: 2008-11-10T12:52:15Z
+
+[Term]
+id: ID:0000034
+name: birth weight
+relationship: part_of ATO:0000007 ! growth
+created_by: caripark
+creation_date: 2008-11-10T12:52:15Z
+
+[Term]
+id: ID:0000035
+name: BWF scaled by BWI
+comment: Cattle trait.
+relationship: part_of ATO:0000007 ! growth
+created_by: caripark
+creation_date: 2008-11-10T12:52:15Z
+
+[Term]
+id: ID:0000222
+name: body weight
+relationship: part_of ATO:0000007 ! growth
+created_by: caripark
+creation_date: 2008-11-10T03:43:30Z
+
+[Term]
+id: ID:0000036
+name: initial body weight
+relationship: part_of ID:0000222 ! body weight
+created_by: caripark
+creation_date: 2008-11-10T12:52:15Z
+
+[Term]
+id: ID:0000037
+name: lean to fat ratio
+relationship: part_of ATO:0000007 ! growth
+created_by: caripark
+creation_date: 2008-11-10T12:52:15Z
+
+[Term]
+id: ID:0000038
+name: mean body weight
+relationship: part_of ID:0000222 ! body weight
+created_by: caripark
+creation_date: 2008-11-10T12:52:15Z
+
+[Term]
+id: ID:0000039
+name: post-weaning average daily gain
+comment: Cattle trait.
+relationship: part_of ID:0000033 ! average daily gain
+created_by: caripark
+creation_date: 2008-11-10T12:52:15Z
+
+[Term]
+id: ID:0000040
+name: post-weaning daily gain--pasture
+comment: Cattle trait.
+relationship: part_of ID:0000033 ! average daily gain
+created_by: caripark
+creation_date: 2008-11-10T12:52:15Z
+
+[Term]
+id: ID:0000041
+name: pre-weaning average daily gain
+comment: Cattle trait.
+relationship: part_of ID:0000033 ! average daily gain
+created_by: caripark
+creation_date: 2008-11-10T12:52:15Z
+
+[Term]
+id: ID:0000042
+name: length of productive life
+relationship: part_of ID:0000018 ! lifetime production
+created_by: caripark
+creation_date: 2008-11-10T02:40:05Z
+
+[Term]
+id: ID:0000043
+name: weaning weight
+comment: Cattle trait.
+relationship: part_of ATO:0000007 ! growth
+created_by: caripark
+creation_date: 2008-11-10T12:52:15Z
+
+[Term]
+id: ID:0000044
+name: yearling weight
+comment: Cattle trait.
+relationship: part_of ATO:0000007 ! growth
+created_by: caripark
+creation_date: 2008-11-10T12:52:15Z
+
+[Term]
+id: ID:0000045
+name: metabolic disorder parameter
+relationship: part_of ATO:0000008 ! physiology
+created_by: caripark
+creation_date: 2008-11-10T12:56:21Z
+
+[Term]
+id: ID:0000046
+name: corticosterone response
+relationship: part_of ID:0000045 ! metabolic disorder parameter
+created_by: caripark
+creation_date: 2008-11-10T01:14:43Z
+
+[Term]
+id: ID:0000047
+name: creatine kinase concentration
+relationship: part_of ID:0000045 ! metabolic disorder parameter
+created_by: caripark
+creation_date: 2008-11-10T01:14:43Z
+
+[Term]
+id: ID:0000048
+name: fluid in the heart sac
+relationship: part_of ID:0000045 ! metabolic disorder parameter
+created_by: caripark
+creation_date: 2008-11-10T01:14:43Z
+
+[Term]
+id: ID:0000049
+name: hematocrit value
+synonym: "packed cell volume" EXACT []
+is_obsolete: true
+created_by: caripark
+creation_date: 2008-11-10T01:14:43Z
+
+[Term]
+id: ID:0000050
+name: liver abnormalities
+relationship: part_of ID:0000045 ! metabolic disorder parameter
+created_by: caripark
+creation_date: 2008-11-10T01:14:43Z
+
+[Term]
+id: ID:0000051
+name: mean blood cell volume
+relationship: part_of ID:0000045 ! metabolic disorder parameter
+created_by: caripark
+creation_date: 2008-11-10T01:14:43Z
+
+[Term]
+id: ID:0000052
+name: packed cell volume
+synonym: "hematocrit" EXACT []
+relationship: part_of ID:0000045 ! metabolic disorder parameter
+created_by: caripark
+creation_date: 2008-11-10T01:14:43Z
+
+[Term]
+id: ID:0000053
+name: plasma concentration of cholesterol
+relationship: part_of ID:0000045 ! metabolic disorder parameter
+created_by: caripark
+creation_date: 2008-11-10T01:14:43Z
+
+[Term]
+id: ID:0000054
+name: plasma concentration of glucose
+relationship: part_of ID:0000045 ! metabolic disorder parameter
+created_by: caripark
+creation_date: 2008-11-10T01:14:43Z
+
+[Term]
+id: ID:0000055
+name: plasma concentration of IGF
+relationship: part_of ID:0000045 ! metabolic disorder parameter
+created_by: caripark
+creation_date: 2008-11-10T01:14:43Z
+
+[Term]
+id: ID:0000056
+name: plasma concentration of insulin
+relationship: part_of ID:0000045 ! metabolic disorder parameter
+created_by: caripark
+creation_date: 2008-11-10T01:14:43Z
+
+[Term]
+id: ID:0000057
+name: plasma concentration of triglycerides
+relationship: part_of ID:0000045 ! metabolic disorder parameter
+created_by: caripark
+creation_date: 2008-11-10T01:14:43Z
+
+[Term]
+id: ID:0000058
+name: right ventricular weight as percentage of BWas
+relationship: part_of ID:0000045 ! metabolic disorder parameter
+created_by: caripark
+creation_date: 2008-11-10T01:14:43Z
+
+[Term]
+id: ID:0000059
+name: left ventricular weight as percentage of BWas
+relationship: part_of ID:0000045 ! metabolic disorder parameter
+created_by: caripark
+creation_date: 2008-11-10T01:14:43Z
+
+[Term]
+id: ID:0000060
+name: troponin T concentration
+relationship: part_of ID:0000045 ! metabolic disorder parameter
+created_by: caripark
+creation_date: 2008-11-10T01:14:43Z
+
+[Term]
+id: ID:0000061
+name: frame score
+relationship: part_of ID:0000000 ! conformation
+created_by: caripark
+creation_date: 2008-11-10T01:17:50Z
+
+[Term]
+id: ID:0000062
+name: heart girth
+relationship: part_of ID:0000000 ! conformation
+created_by: caripark
+creation_date: 2008-11-10T01:17:50Z
+
+[Term]
+id: ID:0000063
+name: heart length
+relationship: part_of ID:0000000 ! conformation
+created_by: caripark
+creation_date: 2008-11-10T01:17:50Z
+
+[Term]
+id: ID:0000064
+name: hip height
+relationship: part_of ID:0000000 ! conformation
+created_by: caripark
+creation_date: 2008-11-10T01:17:50Z
+
+[Term]
+id: ID:0000065
+name: hook height
+relationship: part_of ID:0000000 ! conformation
+created_by: caripark
+creation_date: 2008-11-10T01:17:50Z
+
+[Term]
+id: ID:0000066
+name: hook width
+relationship: part_of ID:0000000 ! conformation
+created_by: caripark
+creation_date: 2008-11-10T01:17:50Z
+
+[Term]
+id: ID:0000067
+name: udder structure
+relationship: part_of ID:0000000 ! conformation
+created_by: caripark
+creation_date: 2008-11-10T01:17:50Z
+
+[Term]
+id: ID:0000068
+name: degree of spotting
+relationship: part_of ID:0000001 ! pigmentation
+created_by: caripark
+creation_date: 2008-11-10T01:18:17Z
+
+[Term]
+id: ID:0000069
+name: percentage decrease in body weight up to day 150 after challenge
+relationship: part_of ID:0000005 ! disease resistance
+created_by: caripark
+creation_date: 2008-11-10T01:27:20Z
+
+[Term]
+id: ID:0000070
+name: white blood cell count
+relationship: part_of ID:0000005 ! disease resistance
+relationship: part_of ID:0000011 ! immune capacity
+created_by: caripark
+creation_date: 2008-11-10T01:27:53Z
+
+[Term]
+id: ID:0000071
+name: PTA somatic cell score
+relationship: part_of ID:0000006 ! mastitis
+created_by: caripark
+creation_date: 2008-11-10T01:29:25Z
+
+[Term]
+id: ID:0000072
+name: somatic cell count
+relationship: part_of ID:0000006 ! mastitis
+created_by: caripark
+creation_date: 2008-11-10T01:29:25Z
+
+[Term]
+id: ID:0000073
+name: somatic cell score
+relationship: part_of ID:0000006 ! mastitis
+created_by: caripark
+creation_date: 2008-11-10T01:29:25Z
+
+[Term]
+id: ID:0000074
+name: parasite detection rate
+relationship: part_of ID:0000007 ! parasite load
+created_by: caripark
+creation_date: 2008-11-10T01:31:27Z
+
+[Term]
+id: ID:0000075
+name: parasites-mean of natural logarithm
+relationship: part_of ID:0000007 ! parasite load
+created_by: caripark
+creation_date: 2008-11-10T01:31:27Z
+
+[Term]
+id: ID:0000076
+name: resistance to gastrointestinal worms
+relationship: part_of ID:0000008 ! parasite resistance
+created_by: caripark
+creation_date: 2008-11-10T01:32:07Z
+
+[Term]
+id: ID:0000077
+name: resistance to metastrongyles
+relationship: part_of ID:0000008 ! parasite resistance
+created_by: caripark
+creation_date: 2008-11-10T01:32:07Z
+
+[Term]
+id: ID:0000078
+name: resistance to trypanosomosis
+relationship: part_of ID:0000008 ! parasite resistance
+created_by: caripark
+creation_date: 2008-11-10T01:32:07Z
+
+[Term]
+id: ID:0000079
+name: final packed red blood cell volume
+relationship: part_of ID:0000009 ! postchallenge traits
+created_by: caripark
+creation_date: 2008-11-10T01:35:08Z
+
+[Term]
+id: ID:0000080
+name: initial packed red blood cell volume
+relationship: part_of ID:0000009 ! postchallenge traits
+created_by: caripark
+creation_date: 2008-11-10T01:35:08Z
+
+[Term]
+id: ID:0000081
+name: minimum packed red blood cell volume
+relationship: part_of ID:0000009 ! postchallenge traits
+created_by: caripark
+creation_date: 2008-11-10T01:35:08Z
+
+[Term]
+id: ID:0000082
+name: packed red blood cell volume
+relationship: part_of ID:0000009 ! postchallenge traits
+created_by: caripark
+creation_date: 2008-11-10T01:35:08Z
+
+[Term]
+id: ID:0000083
+name: PCV variance
+relationship: part_of ID:0000009 ! postchallenge traits
+created_by: caripark
+creation_date: 2008-11-10T01:35:08Z
+
+[Term]
+id: ID:0000084
+name: PCVF
+relationship: part_of ID:0000009 ! postchallenge traits
+created_by: caripark
+creation_date: 2008-11-10T01:35:08Z
+
+[Term]
+id: ID:0000085
+name: PCVF minus PCVM
+relationship: part_of ID:0000009 ! postchallenge traits
+created_by: caripark
+creation_date: 2008-11-10T01:35:08Z
+
+[Term]
+id: ID:0000086
+name: PCVFM
+relationship: part_of ID:0000009 ! postchallenge traits
+created_by: caripark
+creation_date: 2008-11-10T01:35:08Z
+
+[Term]
+id: ID:0000087
+name: PCVI
+relationship: part_of ID:0000009 ! postchallenge traits
+created_by: caripark
+creation_date: 2008-11-10T01:35:08Z
+
+[Term]
+id: ID:0000088
+name: PCVI minus PCVF
+relationship: part_of ID:0000009 ! postchallenge traits
+created_by: caripark
+creation_date: 2008-11-10T01:35:08Z
+
+[Term]
+id: ID:0000089
+name: PCVI minus PCVM
+relationship: part_of ID:0000009 ! postchallenge traits
+created_by: caripark
+creation_date: 2008-11-10T01:35:08Z
+
+[Term]
+id: ID:0000090
+name: PCVM
+relationship: part_of ID:0000009 ! postchallenge traits
+created_by: caripark
+creation_date: 2008-11-10T01:35:08Z
+
+[Term]
+id: ID:0000091
+name: percentage decrease in PCV up to day 100 after challenge
+relationship: part_of ID:0000009 ! postchallenge traits
+created_by: caripark
+creation_date: 2008-11-10T01:35:08Z
+
+[Term]
+id: ID:0000092
+name: percentage decrease in PCV up to day 150 after challenge
+relationship: part_of ID:0000009 ! postchallenge traits
+created_by: caripark
+creation_date: 2008-11-10T01:35:08Z
+
+[Term]
+id: ID:0000093
+name: adjusted fat thickness
+relationship: part_of ID:0000014 ! carcass
+created_by: caripark
+creation_date: 2008-11-10T01:40:23Z
+
+[Term]
+id: ID:0000094
+name: adjusted mature weight
+relationship: part_of ID:0000014 ! carcass
+created_by: caripark
+creation_date: 2008-11-10T01:40:23Z
+
+[Term]
+id: ID:0000095
+name: anatomy
+relationship: part_of ID:0000014 ! carcass
+created_by: caripark
+creation_date: 2008-11-10T01:40:23Z
+
+[Term]
+id: ID:0000096
+name: body condition score
+relationship: part_of ID:0000014 ! carcass
+created_by: caripark
+creation_date: 2008-11-10T01:40:23Z
+
+[Term]
+id: ID:0000097
+name: chemical
+relationship: part_of ID:0000014 ! carcass
+created_by: caripark
+creation_date: 2008-11-10T01:40:23Z
+
+[Term]
+id: ID:0000098
+name: enzyme activity
+relationship: part_of ID:0000014 ! carcass
+created_by: caripark
+creation_date: 2008-11-10T01:40:23Z
+
+[Term]
+id: ID:0000099
+name: fat composition
+relationship: part_of ID:0000014 ! carcass
+created_by: caripark
+creation_date: 2008-11-10T01:40:23Z
+
+[Term]
+id: ID:0000100
+name: fat deposition
+relationship: part_of ID:0000014 ! carcass
+created_by: caripark
+creation_date: 2008-11-10T01:40:23Z
+
+[Term]
+id: ID:0000101
+name: fatty acid composition
+relationship: part_of ID:0000014 ! carcass
+created_by: caripark
+creation_date: 2008-11-10T01:40:23Z
+
+[Term]
+id: ID:0000102
+name: flavor
+relationship: part_of ID:0000014 ! carcass
+created_by: caripark
+creation_date: 2008-11-10T01:40:23Z
+
+[Term]
+id: ID:0000103
+name: mature weight
+relationship: part_of ID:0000014 ! carcass
+created_by: caripark
+creation_date: 2008-11-10T01:40:23Z
+
+[Term]
+id: ID:0000104
+name: meat color
+relationship: part_of ID:0000016 ! meat quality
+created_by: caripark
+creation_date: 2008-11-10T01:40:23Z
+
+[Term]
+id: ID:0000105
+name: muscling
+relationship: part_of ID:0000014 ! carcass
+created_by: caripark
+creation_date: 2008-11-10T01:40:23Z
+
+[Term]
+id: ID:0000106
+name: odor
+relationship: part_of ID:0000014 ! carcass
+created_by: caripark
+creation_date: 2008-11-10T01:40:23Z
+
+[Term]
+id: ID:0000107
+name: pH
+relationship: part_of ID:0000014 ! carcass
+created_by: caripark
+creation_date: 2008-11-10T01:40:23Z
+
+[Term]
+id: ID:0000108
+name: stiffening
+relationship: part_of ID:0000014 ! carcass
+created_by: caripark
+creation_date: 2008-11-10T01:40:23Z
+
+[Term]
+id: ID:0000109
+name: texture
+relationship: part_of ID:0000014 ! carcass
+created_by: caripark
+creation_date: 2008-11-10T01:40:23Z
+
+[Term]
+id: ID:0000110
+name: Warner-Bratzler shear force
+relationship: part_of ID:0000014 ! carcass
+created_by: caripark
+creation_date: 2008-11-10T01:40:23Z
+
+[Term]
+id: ID:0000111
+name: bone weight
+relationship: part_of ID:0000095 ! anatomy
+created_by: caripark
+creation_date: 2008-11-10T01:44:59Z
+
+[Term]
+id: ID:0000112
+name: bone yield
+relationship: part_of ID:0000095 ! anatomy
+created_by: caripark
+creation_date: 2008-11-10T01:44:59Z
+
+[Term]
+id: ID:0000113
+name: carcass dressing
+relationship: part_of ID:0000095 ! anatomy
+created_by: caripark
+creation_date: 2008-11-10T01:44:59Z
+
+[Term]
+id: ID:0000114
+name: carcass weight
+relationship: part_of ID:0000095 ! anatomy
+created_by: caripark
+creation_date: 2008-11-10T01:44:59Z
+
+[Term]
+id: ID:0000115
+name: carcass yield
+relationship: part_of ID:0000095 ! anatomy
+created_by: caripark
+creation_date: 2008-11-10T01:44:59Z
+
+[Term]
+id: ID:0000116
+name: dressing percentage
+relationship: part_of ID:0000095 ! anatomy
+created_by: caripark
+creation_date: 2008-11-10T01:44:59Z
+
+[Term]
+id: ID:0000117
+name: hot carcass weight
+relationship: part_of ID:0000114 ! carcass weight
+created_by: caripark
+creation_date: 2008-11-10T01:44:59Z
+
+[Term]
+id: ID:0000118
+name: vertebra number
+relationship: part_of ID:0000000 ! conformation
+relationship: part_of ID:0000095 ! anatomy
+created_by: caripark
+creation_date: 2008-11-10T01:44:59Z
+
+[Term]
+id: ID:0000119
+name: rib bone fat
+relationship: part_of ID:0000095 ! anatomy
+created_by: caripark
+creation_date: 2008-11-10T01:44:59Z
+
+[Term]
+id: ID:0000120
+name: rib thickness
+relationship: part_of ID:0000095 ! anatomy
+created_by: caripark
+creation_date: 2008-11-10T01:44:59Z
+
+[Term]
+id: ID:0000121
+name: lumbar vertebra number
+relationship: part_of ID:0000118 ! vertebra number
+created_by: caripark
+creation_date: 2008-11-10T01:45:36Z
+
+[Term]
+id: ID:0000122
+name: thoracic vertebra number
+relationship: part_of ID:0000118 ! vertebra number
+created_by: caripark
+creation_date: 2008-11-10T01:45:36Z
+
+[Term]
+id: ID:0000123
+name: USDA yield grade
+relationship: part_of ID:0000014 ! carcass
+created_by: caripark
+creation_date: 2008-11-10T01:46:56Z
+
+[Term]
+id: ID:0000124
+name: backfat
+relationship: part_of ID:0000100 ! fat deposition
+created_by: caripark
+creation_date: 2008-11-10T01:50:29Z
+
+[Term]
+id: ID:0000125
+name: fat depth
+relationship: part_of ID:0000100 ! fat deposition
+created_by: caripark
+creation_date: 2008-11-10T01:50:29Z
+
+[Term]
+id: ID:0000126
+name: fat thickness
+relationship: part_of ID:0000100 ! fat deposition
+created_by: caripark
+creation_date: 2008-11-10T01:50:29Z
+
+[Term]
+id: ID:0000127
+name: fat trim yield
+relationship: part_of ID:0000100 ! fat deposition
+created_by: caripark
+creation_date: 2008-11-10T01:50:29Z
+
+[Term]
+id: ID:0000128
+name: fat weight
+relationship: part_of ID:0000100 ! fat deposition
+created_by: caripark
+creation_date: 2008-11-10T01:50:29Z
+
+[Term]
+id: ID:0000129
+name: fat yield
+relationship: part_of ID:0000100 ! fat deposition
+created_by: caripark
+creation_date: 2008-11-10T01:50:29Z
+
+[Term]
+id: ID:0000130
+name: kidney, pelvic, and heart fat percentage
+relationship: part_of ID:0000100 ! fat deposition
+created_by: caripark
+creation_date: 2008-11-10T01:50:29Z
+
+[Term]
+id: ID:0000131
+name: marbling
+relationship: part_of ID:0000100 ! fat deposition
+created_by: caripark
+creation_date: 2008-11-10T01:50:29Z
+
+[Term]
+id: ID:0000132
+name: retail product yield
+relationship: part_of ID:0000100 ! fat deposition
+created_by: caripark
+creation_date: 2008-11-10T01:50:29Z
+
+[Term]
+id: ID:0000133
+name: rib fat weight
+relationship: part_of ID:0000100 ! fat deposition
+created_by: caripark
+creation_date: 2008-11-10T01:50:29Z
+
+[Term]
+id: ID:0000134
+name: subcutaneous fat
+relationship: part_of ID:0000100 ! fat deposition
+created_by: caripark
+creation_date: 2008-11-10T01:50:29Z
+
+[Term]
+id: ID:0000135
+name: subcutaneous fat thickness
+relationship: part_of ID:0000134 ! subcutaneous fat
+created_by: caripark
+creation_date: 2008-11-10T01:50:57Z
+
+[Term]
+id: ID:0000136
+name: adjusted subcutaneous fat thickness between 12th and 13th ribs
+relationship: part_of ID:0000135 ! subcutaneous fat thickness
+created_by: caripark
+creation_date: 2008-11-10T01:50:57Z
+
+[Term]
+id: ID:0000137
+name: back subcutaneous fat thickness
+relationship: part_of ID:0000135 ! subcutaneous fat thickness
+created_by: caripark
+creation_date: 2008-11-10T01:56:01Z
+
+[Term]
+id: ID:0000138
+name: forebelly subcutaneous fat thickness
+relationship: part_of ID:0000135 ! subcutaneous fat thickness
+created_by: caripark
+creation_date: 2008-11-10T01:56:01Z
+
+[Term]
+id: ID:0000139
+name: hind belly subcutaneous fat thickness
+relationship: part_of ID:0000135 ! subcutaneous fat thickness
+created_by: caripark
+creation_date: 2008-11-10T01:56:01Z
+
+[Term]
+id: ID:0000140
+name: loin subcutaneous fat thickness
+relationship: part_of ID:0000135 ! subcutaneous fat thickness
+created_by: caripark
+creation_date: 2008-11-10T01:56:01Z
+
+[Term]
+id: ID:0000141
+name: middle belly subcutaneous fat thickness
+relationship: part_of ID:0000135 ! subcutaneous fat thickness
+created_by: caripark
+creation_date: 2008-11-10T01:56:01Z
+
+[Term]
+id: ID:0000142
+name: shoulder subcutaneous fat thickness
+relationship: part_of ID:0000135 ! subcutaneous fat thickness
+created_by: caripark
+creation_date: 2008-11-10T01:56:01Z
+
+[Term]
+id: ID:0000143
+name: % USDA choice
+relationship: part_of ID:0000105 ! muscling
+created_by: caripark
+creation_date: 2008-11-10T01:59:03Z
+
+[Term]
+id: ID:0000144
+name: double muscling
+relationship: part_of ID:0000105 ! muscling
+created_by: caripark
+creation_date: 2008-11-10T01:59:03Z
+
+[Term]
+id: ID:0000145
+name: hindquarter muscle weight
+relationship: part_of ID:0000105 ! muscling
+created_by: caripark
+creation_date: 2008-11-10T01:59:03Z
+
+[Term]
+id: ID:0000146
+name: loin weight
+relationship: part_of ID:0000105 ! muscling
+created_by: caripark
+creation_date: 2008-11-10T01:59:03Z
+
+[Term]
+id: ID:0000147
+name: longissimus muscle area
+relationship: part_of ID:0000105 ! muscling
+created_by: caripark
+creation_date: 2008-11-10T01:59:03Z
+
+[Term]
+id: ID:0000148
+name: rib eye area
+relationship: part_of ID:0000105 ! muscling
+created_by: caripark
+creation_date: 2008-11-10T01:59:03Z
+
+[Term]
+id: ID:0000149
+name: rib muscle weight
+relationship: part_of ID:0000105 ! muscling
+created_by: caripark
+creation_date: 2008-11-10T01:59:03Z
+
+[Term]
+id: ID:0000151
+name: LMA
+relationship: part_of ID:0000018 ! lifetime production
+created_by: caripark
+creation_date: 2008-11-10T02:40:05Z
+
+[Term]
+id: ID:0000152
+name: veterinary treatments
+relationship: part_of ID:0000018 ! lifetime production
+created_by: caripark
+creation_date: 2008-11-10T02:40:05Z
+
+[Term]
+id: ID:0000153
+name: milk fat
+relationship: part_of ID:0000019 ! milk traits
+created_by: caripark
+creation_date: 2008-11-10T02:40:37Z
+
+[Term]
+id: ID:0000154
+name: milk protein
+relationship: part_of ID:0000019 ! milk traits
+created_by: caripark
+creation_date: 2008-11-10T02:40:37Z
+
+[Term]
+id: ID:0000155
+name: milk yield
+relationship: part_of ID:0000019 ! milk traits
+created_by: caripark
+creation_date: 2008-11-10T02:40:37Z
+
+[Term]
+id: ID:0000156
+name: daughter deviation % milk fat
+relationship: part_of ID:0000153 ! milk fat
+created_by: caripark
+creation_date: 2008-11-10T02:43:21Z
+
+[Term]
+id: ID:0000157
+name: daughter deviation milk fat
+relationship: part_of ID:0000153 ! milk fat
+created_by: caripark
+creation_date: 2008-11-10T02:43:21Z
+
+[Term]
+id: ID:0000158
+name: milk fat content
+relationship: part_of ID:0000153 ! milk fat
+created_by: caripark
+creation_date: 2008-11-10T02:43:21Z
+
+[Term]
+id: ID:0000159
+name: milk fat percentage
+relationship: part_of ID:0000153 ! milk fat
+created_by: caripark
+creation_date: 2008-11-10T02:43:21Z
+
+[Term]
+id: ID:0000160
+name: milk fat thickness
+relationship: part_of ID:0000153 ! milk fat
+created_by: caripark
+creation_date: 2008-11-10T02:43:21Z
+
+[Term]
+id: ID:0000161
+name: milk fat yield
+relationship: part_of ID:0000153 ! milk fat
+created_by: caripark
+creation_date: 2008-11-10T02:43:21Z
+
+[Term]
+id: ID:0000162
+name: daughter deviation % protein
+relationship: part_of ID:0000154 ! milk protein
+created_by: caripark
+creation_date: 2008-11-10T02:45:00Z
+
+[Term]
+id: ID:0000163
+name: daughter deviation protein yield
+relationship: part_of ID:0000154 ! milk protein
+created_by: caripark
+creation_date: 2008-11-10T02:45:00Z
+
+[Term]
+id: ID:0000164
+name: protein percentage
+relationship: part_of ID:0000154 ! milk protein
+created_by: caripark
+creation_date: 2008-11-10T02:45:00Z
+
+[Term]
+id: ID:0000165
+name: protein yield
+relationship: part_of ID:0000154 ! milk protein
+created_by: caripark
+creation_date: 2008-11-10T02:45:00Z
+
+[Term]
+id: ID:0000166
+name: PTA % protein
+relationship: part_of ID:0000154 ! milk protein
+created_by: caripark
+creation_date: 2008-11-10T02:45:00Z
+
+[Term]
+id: ID:0000167
+name: 305 days milk yield
+relationship: part_of ID:0000155 ! milk yield
+created_by: caripark
+creation_date: 2008-11-10T02:46:06Z
+
+[Term]
+id: ID:0000168
+name: 3rd year total milk yield
+relationship: part_of ID:0000155 ! milk yield
+created_by: caripark
+creation_date: 2008-11-10T02:46:06Z
+
+[Term]
+id: ID:0000169
+name: 5th year total milk yield
+relationship: part_of ID:0000155 ! milk yield
+created_by: caripark
+creation_date: 2008-11-10T02:46:06Z
+
+[Term]
+id: ID:0000170
+name: average daily yield
+relationship: part_of ID:0000155 ! milk yield
+created_by: caripark
+creation_date: 2008-11-10T02:46:06Z
+
+[Term]
+id: ID:0000171
+name: milk yield-other
+relationship: part_of ID:0000155 ! milk yield
+created_by: caripark
+creation_date: 2008-11-10T02:46:06Z
+
+[Term]
+id: ID:0000172
+name: follicle stimulating hormone
+relationship: part_of ID:0000024 ! endocrine
+created_by: caripark
+creation_date: 2008-11-10T02:50:56Z
+
+[Term]
+id: ID:0000173
+name: gonadrotropin releasing hormone
+relationship: part_of ID:0000024 ! endocrine
+created_by: caripark
+creation_date: 2008-11-10T02:50:56Z
+
+[Term]
+id: ID:0000174
+name: luteinizing hormone
+relationship: part_of ID:0000024 ! endocrine
+created_by: caripark
+creation_date: 2008-11-10T02:50:56Z
+
+[Term]
+id: ID:0000175
+name: progesterone
+relationship: part_of ID:0000024 ! endocrine
+created_by: caripark
+creation_date: 2008-11-10T02:50:56Z
+
+[Term]
+id: ID:0000176
+name: prostaglandins
+relationship: part_of ID:0000024 ! endocrine
+created_by: caripark
+creation_date: 2008-11-10T02:50:56Z
+
+[Term]
+id: ID:0000177
+name: 56 days non-return rate
+relationship: part_of ID:0000025 ! fertility
+created_by: caripark
+creation_date: 2008-11-10T02:59:38Z
+
+[Term]
+id: ID:0000178
+name: 90 days non-return rate
+relationship: part_of ID:0000025 ! fertility
+created_by: caripark
+creation_date: 2008-11-10T02:59:38Z
+
+[Term]
+id: ID:0000179
+name: abortions
+relationship: part_of ID:0000025 ! fertility
+created_by: caripark
+creation_date: 2008-11-10T02:59:38Z
+
+[Term]
+id: ID:0000180
+name: offspring mortality rate
+relationship: part_of ID:0000025 ! fertility
+created_by: caripark
+creation_date: 2008-11-10T02:59:38Z
+
+[Term]
+id: ID:0000181
+name: offspring born alive
+relationship: part_of ID:0000025 ! fertility
+created_by: caripark
+creation_date: 2008-11-10T02:59:38Z
+
+[Term]
+id: ID:0000182
+name: offspring born alive, %
+relationship: part_of ID:0000025 ! fertility
+created_by: caripark
+creation_date: 2008-11-10T02:59:38Z
+
+[Term]
+id: ID:0000183
+name: offspring weaned, %
+relationship: part_of ID:0000025 ! fertility
+created_by: caripark
+creation_date: 2008-11-10T02:59:38Z
+
+[Term]
+id: ID:0000184
+name: birthing ease
+relationship: part_of ID:0000025 ! fertility
+created_by: caripark
+creation_date: 2008-11-10T02:59:38Z
+
+[Term]
+id: ID:0000185
+name: birthing interval
+relationship: part_of ID:0000025 ! fertility
+created_by: caripark
+creation_date: 2008-11-10T02:59:38Z
+
+[Term]
+id: ID:0000186
+name: conception rate
+relationship: part_of ID:0000025 ! fertility
+created_by: caripark
+creation_date: 2008-11-10T02:59:38Z
+
+[Term]
+id: ID:0000187
+name: dystocia
+relationship: part_of ID:0000025 ! fertility
+created_by: caripark
+creation_date: 2008-11-10T02:59:38Z
+
+[Term]
+id: ID:0000188
+name: early fetal abortion rate
+relationship: part_of ID:0000025 ! fertility
+created_by: caripark
+creation_date: 2008-11-10T02:59:38Z
+
+[Term]
+id: ID:0000190
+name: heat intensity
+relationship: part_of ID:0000025 ! fertility
+created_by: caripark
+creation_date: 2008-11-10T02:59:38Z
+
+[Term]
+id: ID:0000191
+name: hydrops
+relationship: part_of ID:0000025 ! fertility
+created_by: caripark
+creation_date: 2008-11-10T02:59:38Z
+
+[Term]
+id: ID:0000192
+name: inseminations per service period
+relationship: part_of ID:0000025 ! fertility
+created_by: caripark
+creation_date: 2008-11-10T02:59:38Z
+
+[Term]
+id: ID:0000193
+name: ovulation rate
+relationship: part_of ID:0000025 ! fertility
+created_by: caripark
+creation_date: 2008-11-10T02:59:38Z
+
+[Term]
+id: ID:0000194
+name: parity of dam
+relationship: part_of ID:0000025 ! fertility
+created_by: caripark
+creation_date: 2008-11-10T02:59:38Z
+
+[Term]
+id: ID:0000195
+name: pregnancy rate
+relationship: part_of ID:0000025 ! fertility
+created_by: caripark
+creation_date: 2008-11-10T02:59:38Z
+
+[Term]
+id: ID:0000196
+name: remain alive
+relationship: part_of ID:0000025 ! fertility
+created_by: caripark
+creation_date: 2008-11-10T02:59:38Z
+
+[Term]
+id: ID:0000197
+name: stillbirths
+relationship: part_of ID:0000025 ! fertility
+created_by: caripark
+creation_date: 2008-11-10T02:59:38Z
+
+[Term]
+id: ID:0000198
+name: time of conception
+relationship: part_of ID:0000025 ! fertility
+created_by: caripark
+creation_date: 2008-11-10T02:59:38Z
+
+[Term]
+id: ID:0000199
+name: twinning rate
+relationship: part_of ID:0000025 ! fertility
+created_by: caripark
+creation_date: 2008-11-10T02:59:38Z
+
+[Term]
+id: ID:0000200
+name: type of birth
+relationship: part_of ID:0000025 ! fertility
+created_by: caripark
+creation_date: 2008-11-10T02:59:38Z
+
+[Term]
+id: ID:0000201
+name: development time
+relationship: part_of ID:0000026 ! life history
+created_by: caripark
+creation_date: 2008-11-10T03:00:43Z
+
+[Term]
+id: ID:0000202
+name: PTA type
+relationship: part_of ID:0000026 ! life history
+created_by: caripark
+creation_date: 2008-11-10T03:00:43Z
+
+[Term]
+id: ID:0000203
+name: female measurements
+relationship: part_of ID:0000027 ! reproductive organ
+created_by: caripark
+creation_date: 2008-11-10T03:01:22Z
+
+[Term]
+id: ID:0000204
+name: male measurements
+relationship: part_of ID:0000027 ! reproductive organ
+created_by: caripark
+creation_date: 2008-11-10T03:01:22Z
+
+[Term]
+id: ID:0000205
+name: teat length
+relationship: part_of ID:0000203 ! female measurements
+created_by: caripark
+creation_date: 2008-11-10T03:02:18Z
+
+[Term]
+id: ID:0000206
+name: teat number
+synonym: "nipple number" RELATED []
+relationship: part_of ID:0000203 ! female measurements
+created_by: caripark
+creation_date: 2008-11-10T03:02:18Z
+
+[Term]
+id: ID:0000207
+name: accessory sperm
+relationship: part_of ID:0000204 ! male measurements
+created_by: caripark
+creation_date: 2008-11-10T03:03:07Z
+
+[Term]
+id: ID:0000208
+name: retrograde sperm
+relationship: part_of ID:0000204 ! male measurements
+created_by: caripark
+creation_date: 2008-11-10T03:03:07Z
+
+[Term]
+id: ID:0000209
+name: retrograde sperm loss
+relationship: part_of ID:0000204 ! male measurements
+created_by: caripark
+creation_date: 2008-11-10T03:03:07Z
+
+[Term]
+id: ID:0000210
+name: scrotal circumference
+relationship: part_of ID:0000204 ! male measurements
+created_by: caripark
+creation_date: 2008-11-10T03:03:07Z
+
+[Term]
+id: ID:0000211
+name: sex drive
+relationship: part_of ID:0000204 ! male measurements
+created_by: caripark
+creation_date: 2008-11-10T03:03:07Z
+
+[Term]
+id: ID:0000212
+name: sperm activity score
+relationship: part_of ID:0000204 ! male measurements
+created_by: caripark
+creation_date: 2008-11-10T03:03:07Z
+
+[Term]
+id: ID:0000213
+name: sperm counts
+relationship: part_of ID:0000204 ! male measurements
+created_by: caripark
+creation_date: 2008-11-10T03:03:07Z
+
+[Term]
+id: ID:0000214
+name: sperm quality
+relationship: part_of ID:0000204 ! male measurements
+created_by: caripark
+creation_date: 2008-11-10T03:03:07Z
+
+[Term]
+id: ID:0000215
+name: % survival to weaning
+relationship: part_of ID:0000028 ! other reproductive
+created_by: caripark
+creation_date: 2008-11-10T03:04:56Z
+
+[Term]
+id: ID:0000216
+name: % unassisted births
+relationship: part_of ID:0000028 ! other reproductive
+created_by: caripark
+creation_date: 2008-11-10T03:04:56Z
+
+[Term]
+id: ID:0000217
+name: age at first breeding
+relationship: part_of ID:0000028 ! other reproductive
+created_by: caripark
+creation_date: 2008-11-10T03:04:56Z
+
+[Term]
+id: ID:0000218
+name: age at puberty
+relationship: part_of ID:0000028 ! other reproductive
+created_by: caripark
+creation_date: 2008-11-10T03:04:56Z
+
+[Term]
+id: ID:0000219
+name: structural soundness
+comment: Soundness of legs, feet, penis, and prepuce.
+relationship: part_of ID:0000028 ! other reproductive
+created_by: caripark
+creation_date: 2008-11-10T03:04:56Z
+
+[Term]
+id: ID:0000220
+name: abdominal fat weight
+relationship: part_of ID:0000100 ! fat deposition
+created_by: caripark
+creation_date: 2008-11-10T03:41:26Z
+
+[Term]
+id: ID:0000221
+name: body weight (5 weeks)
+relationship: part_of ID:0000222 ! body weight
+created_by: caripark
+creation_date: 2008-11-10T03:42:21Z
+
+[Term]
+id: ID:0000223
+name: breast muscle weight
+relationship: part_of ID:0000105 ! muscling
+created_by: caripark
+creation_date: 2008-11-10T03:45:54Z
+
+[Term]
+id: ID:0000224
+name: bursa weight
+relationship: part_of ID:0000095 ! anatomy
+created_by: caripark
+creation_date: 2008-11-10T03:45:54Z
+
+[Term]
+id: ID:0000225
+name: drumstick weight
+relationship: part_of ID:0000095 ! anatomy
+created_by: caripark
+creation_date: 2008-11-10T03:45:54Z
+
+[Term]
+id: ID:0000226
+name: gizzard weight
+relationship: part_of ID:0000095 ! anatomy
+created_by: caripark
+creation_date: 2008-11-10T03:45:54Z
+
+[Term]
+id: ID:0000227
+name: heart weight
+relationship: part_of ID:0000095 ! anatomy
+created_by: caripark
+creation_date: 2008-11-10T03:45:54Z
+
+[Term]
+id: ID:0000228
+name: intestine length
+relationship: part_of ID:0000095 ! anatomy
+created_by: caripark
+creation_date: 2008-11-10T03:45:54Z
+
+[Term]
+id: ID:0000229
+name: liver weight
+relationship: part_of ID:0000095 ! anatomy
+created_by: caripark
+creation_date: 2008-11-10T03:45:54Z
+
+[Term]
+id: ID:0000230
+name: lung weight
+relationship: part_of ID:0000095 ! anatomy
+created_by: caripark
+creation_date: 2008-11-10T03:45:54Z
+
+[Term]
+id: ID:0000231
+name: shank weight
+relationship: part_of ID:0000095 ! anatomy
+created_by: caripark
+creation_date: 2008-11-10T03:45:54Z
+
+[Term]
+id: ID:0000232
+name: skin fat weight
+relationship: part_of ID:0000095 ! anatomy
+created_by: caripark
+creation_date: 2008-11-10T03:45:54Z
+
+[Term]
+id: ID:0000233
+name: spleen weight
+relationship: part_of ID:0000095 ! anatomy
+created_by: caripark
+creation_date: 2008-11-10T03:45:54Z
+
+[Term]
+id: ID:0000234
+name: thigh muscle weight
+relationship: part_of ID:0000105 ! muscling
+created_by: caripark
+creation_date: 2008-11-10T03:45:54Z
+
+[Term]
+id: ID:0000235
+name: thigh weight
+relationship: part_of ID:0000095 ! anatomy
+created_by: caripark
+creation_date: 2008-11-10T03:45:54Z
+
+[Term]
+id: ID:0000236
+name: weight of the front half of the carcass
+relationship: part_of ID:0000095 ! anatomy
+created_by: caripark
+creation_date: 2008-11-10T03:45:54Z
+
+[Term]
+id: ID:0000237
+name: wing weight
+relationship: part_of ID:0000095 ! anatomy
+created_by: caripark
+creation_date: 2008-11-10T03:45:54Z
+
+[Term]
+id: ID:0000238
+name: feathering
+relationship: part_of ATO:0000007 ! growth
+created_by: caripark
+creation_date: 2008-11-10T03:46:33Z
+
+[Term]
+id: ID:0000239
+name: drumstick muscle weight
+relationship: part_of ID:0000105 ! muscling
+created_by: caripark
+creation_date: 2008-11-10T03:56:45Z
+
+[Term]
+id: ID:0000240
+name: contrafreeloading
+relationship: part_of ID:0000002 ! behavioral
+created_by: caripark
+creation_date: 2008-11-11T09:38:27Z
+
+[Term]
+id: ID:0000241
+name: fear-related traits
+relationship: part_of ID:0000002 ! behavioral
+created_by: caripark
+creation_date: 2008-11-11T09:38:27Z
+
+[Term]
+id: ID:0000242
+name: feather pecking
+relationship: part_of ID:0000002 ! behavioral
+created_by: caripark
+creation_date: 2008-11-11T09:38:27Z
+
+[Term]
+id: ID:0000243
+name: receiving feather pecking
+relationship: part_of ID:0000002 ! behavioral
+created_by: caripark
+creation_date: 2008-11-11T09:38:27Z
+
+[Term]
+id: ID:0000244
+name: social tendency
+relationship: part_of ID:0000002 ! behavioral
+created_by: caripark
+creation_date: 2008-11-11T09:38:27Z
+
+[Term]
+id: ID:0000245
+name: antibody response to x
+relationship: part_of ID:0000005 ! disease resistance
+created_by: caripark
+creation_date: 2008-11-11T09:47:36Z
+
+[Term]
+id: ID:0000246
+name: cecal bacterial burden after challenging with y
+relationship: part_of ID:0000005 ! disease resistance
+created_by: caripark
+creation_date: 2008-11-11T09:47:36Z
+
+[Term]
+id: ID:0000247
+name: cloacal swabs after challenging with y
+relationship: part_of ID:0000005 ! disease resistance
+created_by: caripark
+creation_date: 2008-11-11T09:47:36Z
+
+[Term]
+id: ID:0000248
+name: Marek's disease
+relationship: part_of ID:0000005 ! disease resistance
+created_by: caripark
+creation_date: 2008-11-11T09:47:36Z
+
+[Term]
+id: ID:0000249
+name: oocyst shedding
+relationship: part_of ID:0000005 ! disease resistance
+created_by: caripark
+creation_date: 2008-11-11T09:47:36Z
+
+[Term]
+id: ID:0000250
+name: spleen bacterial burden after challenging with y
+relationship: part_of ID:0000005 ! disease resistance
+created_by: caripark
+creation_date: 2008-11-11T09:47:36Z
+
+[Term]
+id: ID:0000251
+name: time to achieve maximum antibody response
+relationship: part_of ID:0000005 ! disease resistance
+created_by: caripark
+creation_date: 2008-11-11T09:47:36Z
+
+[Term]
+id: ID:0000252
+name: total mortality
+relationship: part_of ID:0000013 ! health other
+created_by: caripark
+creation_date: 2008-11-11T09:48:43Z
+
+[Term]
+id: ID:0000253
+name: albumen height
+relationship: part_of ID:0000015 ! egg quality
+created_by: caripark
+creation_date: 2008-11-11T09:55:05Z
+
+[Term]
+id: ID:0000254
+name: albumen weight
+relationship: part_of ID:0000015 ! egg quality
+created_by: caripark
+creation_date: 2008-11-11T09:55:05Z
+
+[Term]
+id: ID:0000255
+name: egg shell color
+relationship: part_of ID:0000015 ! egg quality
+created_by: caripark
+creation_date: 2008-11-11T09:55:05Z
+
+[Term]
+id: ID:0000256
+name: egg shell percentage
+relationship: part_of ID:0000015 ! egg quality
+created_by: caripark
+creation_date: 2008-11-11T09:55:05Z
+
+[Term]
+id: ID:0000257
+name: egg shell shape
+relationship: part_of ID:0000015 ! egg quality
+created_by: caripark
+creation_date: 2008-11-11T09:55:05Z
+
+[Term]
+id: ID:0000258
+name: egg shell strength
+relationship: part_of ID:0000015 ! egg quality
+created_by: caripark
+creation_date: 2008-11-11T09:55:05Z
+
+[Term]
+id: ID:0000259
+name: egg shell thickness
+relationship: part_of ID:0000015 ! egg quality
+created_by: caripark
+creation_date: 2008-11-11T09:55:05Z
+
+[Term]
+id: ID:0000260
+name: egg shell weight
+relationship: part_of ID:0000015 ! egg quality
+created_by: caripark
+creation_date: 2008-11-11T09:55:05Z
+
+[Term]
+id: ID:0000261
+name: haugh unit
+relationship: part_of ID:0000015 ! egg quality
+created_by: caripark
+creation_date: 2008-11-11T09:55:05Z
+
+[Term]
+id: ID:0000262
+name: gravitational constant
+relationship: part_of ID:0000015 ! egg quality
+created_by: caripark
+creation_date: 2008-11-11T09:55:05Z
+
+[Term]
+id: ID:0000263
+name: long length of egg
+relationship: part_of ID:0000015 ! egg quality
+created_by: caripark
+creation_date: 2008-11-11T09:55:05Z
+
+[Term]
+id: ID:0000264
+name: short length of egg
+relationship: part_of ID:0000015 ! egg quality
+created_by: caripark
+creation_date: 2008-11-11T09:55:05Z
+
+[Term]
+id: ID:0000265
+name: specific gravity
+relationship: part_of ID:0000015 ! egg quality
+created_by: caripark
+creation_date: 2008-11-11T09:55:05Z
+
+[Term]
+id: ID:0000266
+name: yolk height
+relationship: part_of ID:0000015 ! egg quality
+created_by: caripark
+creation_date: 2008-11-11T09:55:05Z
+
+[Term]
+id: ID:0000267
+name: yolk index
+relationship: part_of ID:0000015 ! egg quality
+created_by: caripark
+creation_date: 2008-11-11T09:55:05Z
+
+[Term]
+id: ID:0000268
+name: color of the breast
+relationship: part_of ID:0000104 ! meat color
+created_by: caripark
+creation_date: 2008-11-11T10:15:31Z
+
+[Term]
+id: ID:0000269
+name: white meat weight
+relationship: part_of ID:0000016 ! meat quality
+created_by: caripark
+creation_date: 2008-11-11T10:15:31Z
+
+[Term]
+id: ID:0000270
+name: redness
+relationship: part_of ID:0000104 ! meat color
+created_by: caripark
+creation_date: 2008-11-11T10:15:31Z
+
+[Term]
+id: ID:0000271
+name: lightness
+relationship: part_of ID:0000104 ! meat color
+created_by: caripark
+creation_date: 2008-11-11T10:15:31Z
+
+[Term]
+id: ID:0000272
+name: yellowness
+relationship: part_of ID:0000104 ! meat color
+created_by: caripark
+creation_date: 2008-11-11T10:15:31Z
+
+[Term]
+id: ID:0000273
+name: total blood cell count
+relationship: part_of ID:0000014 ! carcass
+created_by: caripark
+creation_date: 2008-11-11T10:27:07Z
+
+[Term]
+id: ID:0000274
+name: bone mineral content
+relationship: part_of ID:0000095 ! anatomy
+created_by: caripark
+creation_date: 2008-11-11T10:32:08Z
+
+[Term]
+id: ID:0000275
+name: bone mineral density
+relationship: part_of ID:0000095 ! anatomy
+created_by: caripark
+creation_date: 2008-11-11T10:32:08Z
+
+[Term]
+id: ID:0000276
+name: humerus area
+relationship: part_of ID:0000095 ! anatomy
+created_by: caripark
+creation_date: 2008-11-11T10:32:08Z
+
+[Term]
+id: ID:0000277
+name: humerus bone mineral content
+relationship: part_of ID:0000095 ! anatomy
+created_by: caripark
+creation_date: 2008-11-11T10:32:08Z
+
+[Term]
+id: ID:0000278
+name: humerus bone mineral density
+relationship: part_of ID:0000095 ! anatomy
+created_by: caripark
+creation_date: 2008-11-11T10:32:08Z
+
+[Term]
+id: ID:0000279
+name: humerus length
+relationship: part_of ID:0000095 ! anatomy
+created_by: caripark
+creation_date: 2008-11-11T10:32:08Z
+
+[Term]
+id: ID:0000280
+name: humerus width
+relationship: part_of ID:0000095 ! anatomy
+created_by: caripark
+creation_date: 2008-11-11T10:32:08Z
+
+[Term]
+id: ID:0000281
+name: tibia area
+relationship: part_of ID:0000095 ! anatomy
+created_by: caripark
+creation_date: 2008-11-11T10:32:08Z
+
+[Term]
+id: ID:0000282
+name: tibia bone mineral content
+relationship: part_of ID:0000095 ! anatomy
+created_by: caripark
+creation_date: 2008-11-11T10:32:08Z
+
+[Term]
+id: ID:0000283
+name: tibia bone mineral density
+relationship: part_of ID:0000095 ! anatomy
+created_by: caripark
+creation_date: 2008-11-11T10:32:08Z
+
+[Term]
+id: ID:0000284
+name: tibia breaking force
+relationship: part_of ID:0000095 ! anatomy
+created_by: caripark
+creation_date: 2008-11-11T10:32:08Z
+
+[Term]
+id: ID:0000285
+name: tibia length
+relationship: part_of ID:0000095 ! anatomy
+created_by: caripark
+creation_date: 2008-11-11T10:32:08Z
+
+[Term]
+id: ID:0000286
+name: tibia modulus of elasticity
+relationship: part_of ID:0000095 ! anatomy
+created_by: caripark
+creation_date: 2008-11-11T10:32:08Z
+
+[Term]
+id: ID:0000287
+name: tibia strain
+relationship: part_of ID:0000095 ! anatomy
+created_by: caripark
+creation_date: 2008-11-11T10:32:08Z
+
+[Term]
+id: ID:0000288
+name: tibia stress
+relationship: part_of ID:0000095 ! anatomy
+created_by: caripark
+creation_date: 2008-11-11T10:32:08Z
+
+[Term]
+id: ID:0000289
+name: tibia width
+relationship: part_of ID:0000095 ! anatomy
+created_by: caripark
+creation_date: 2008-11-11T10:32:08Z
+
+[Term]
+id: ID:0000290
+name: age at first egg
+relationship: part_of ID:0000020 ! egg production
+created_by: caripark
+creation_date: 2008-11-11T10:43:29Z
+
+[Term]
+id: ID:0000291
+name: annual egg production
+relationship: part_of ID:0000020 ! egg production
+created_by: caripark
+creation_date: 2008-11-11T10:43:29Z
+
+[Term]
+id: ID:0000292
+name: egg production ratio
+relationship: part_of ID:0000020 ! egg production
+created_by: caripark
+creation_date: 2008-11-11T10:43:29Z
+
+[Term]
+id: ID:0000293
+name: egg weight
+relationship: part_of ID:0000020 ! egg production
+created_by: caripark
+creation_date: 2008-11-11T10:43:29Z
+
+[Term]
+id: ID:0000294
+name: number of eggs
+relationship: part_of ID:0000020 ! egg production
+created_by: caripark
+creation_date: 2008-11-11T10:43:29Z
+
+[Term]
+id: ID:0000295
+name: sum of the eggs laid by a bird
+relationship: part_of ID:0000020 ! egg production
+created_by: caripark
+creation_date: 2008-11-11T10:43:29Z
+
+[Term]
+id: ID:0000296
+name: test end body weight
+relationship: part_of ID:0000020 ! egg production
+created_by: caripark
+creation_date: 2008-11-11T10:43:29Z
+
+[Term]
+id: ID:0000297
+name: feed efficiency
+relationship: part_of ATO:0000005 ! Production trait
+created_by: caripark
+creation_date: 2008-11-11T10:46:34Z
+
+[Term]
+id: ID:0000298
+name: conformation score
+relationship: part_of ID:0000000 ! conformation
+created_by: caripark
+creation_date: 2008-11-11T10:50:00Z
+
+[Term]
+id: ID:0000299
+name: transport loss
+relationship: part_of ID:0000021 ! production other
+created_by: caripark
+creation_date: 2008-11-11T10:51:51Z
+
+[Term]
+id: ID:0000300
+name: average daily gain (10-22 weeks)
+relationship: part_of ID:0000033 ! average daily gain
+created_by: caripark
+creation_date: 2008-11-11T12:42:29Z
+
+[Term]
+id: ID:0000301
+name: average daily gain (18-26 weeks)
+relationship: part_of ID:0000033 ! average daily gain
+created_by: caripark
+creation_date: 2008-11-11T12:42:29Z
+
+[Term]
+id: ID:0000302
+name: average daily gain (3-5 weeks)
+relationship: part_of ID:0000033 ! average daily gain
+created_by: caripark
+creation_date: 2008-11-11T12:42:29Z
+
+[Term]
+id: ID:0000303
+name: average daily gain (3-10 weeks)
+relationship: part_of ID:0000033 ! average daily gain
+created_by: caripark
+creation_date: 2008-11-11T12:42:29Z
+
+[Term]
+id: ID:0000304
+name: average daily gain (4-13 weeks)
+relationship: part_of ID:0000033 ! average daily gain
+created_by: caripark
+creation_date: 2008-11-11T12:42:29Z
+
+[Term]
+id: ID:0000305
+name: average daily gain (5-7 weeks)
+relationship: part_of ID:0000033 ! average daily gain
+created_by: caripark
+creation_date: 2008-11-11T12:42:29Z
+
+[Term]
+id: ID:0000306
+name: average daily gain (60-160 days)
+relationship: part_of ID:0000033 ! average daily gain
+created_by: caripark
+creation_date: 2008-11-11T12:42:29Z
+
+[Term]
+id: ID:0000307
+name: average daily gain (7-9 weeks)
+relationship: part_of ID:0000033 ! average daily gain
+created_by: caripark
+creation_date: 2008-11-11T12:42:29Z
+
+[Term]
+id: ID:0000308
+name: average daily gain (8-18 weeks)
+relationship: part_of ID:0000033 ! average daily gain
+created_by: caripark
+creation_date: 2008-11-11T12:42:29Z
+
+[Term]
+id: ID:0000309
+name: average daily gain (birth to 3 weeks)
+relationship: part_of ID:0000033 ! average daily gain
+created_by: caripark
+creation_date: 2008-11-11T12:42:29Z
+
+[Term]
+id: ID:0000310
+name: average daily gain (birth to 60 days)
+relationship: part_of ID:0000033 ! average daily gain
+created_by: caripark
+creation_date: 2008-11-11T12:42:29Z
+
+[Term]
+id: ID:0000311
+name: average daily gain (25-90 kg)
+relationship: part_of ID:0000033 ! average daily gain
+created_by: caripark
+creation_date: 2008-11-11T12:42:29Z
+
+[Term]
+id: ID:0000312
+name: average daily gain (35-55 kg)
+relationship: part_of ID:0000033 ! average daily gain
+created_by: caripark
+creation_date: 2008-11-11T12:42:29Z
+
+[Term]
+id: ID:0000313
+name: average daily gain (55-80 kg)
+relationship: part_of ID:0000033 ! average daily gain
+created_by: caripark
+creation_date: 2008-11-11T12:42:29Z
+
+[Term]
+id: ID:0000314
+name: average daily gain (birth to 30 kg)
+relationship: part_of ID:0000033 ! average daily gain
+created_by: caripark
+creation_date: 2008-11-11T12:42:29Z
+
+[Term]
+id: ID:0000315
+name: average daily gain (birth to 70 kg)
+relationship: part_of ID:0000033 ! average daily gain
+created_by: caripark
+creation_date: 2008-11-11T12:42:29Z
+
+[Term]
+id: ID:0000316
+name: average daily gain (birth to end of test)
+relationship: part_of ID:0000033 ! average daily gain
+created_by: caripark
+creation_date: 2008-11-11T12:42:29Z
+
+[Term]
+id: ID:0000317
+name: average daily gain (entire life)
+relationship: part_of ID:0000033 ! average daily gain
+created_by: caripark
+creation_date: 2008-11-11T12:42:29Z
+
+[Term]
+id: ID:0000318
+name: average daily gain on test
+relationship: part_of ID:0000033 ! average daily gain
+created_by: caripark
+creation_date: 2008-11-11T12:42:29Z
+
+[Term]
+id: ID:0000319
+name: average daily gain on weaning
+relationship: part_of ID:0000033 ! average daily gain
+created_by: caripark
+creation_date: 2008-11-11T12:42:29Z
+
+[Term]
+id: ID:0000320
+name: average daily gain (weaning to 25 kg)
+relationship: part_of ID:0000033 ! average daily gain
+created_by: caripark
+creation_date: 2008-11-11T12:42:29Z
+
+[Term]
+id: ID:0000321
+name: average daily gain (weaning to 55 kg)
+relationship: part_of ID:0000033 ! average daily gain
+created_by: caripark
+creation_date: 2008-11-11T12:42:29Z
+
+[Term]
+id: ID:0000322
+name: age at slaughter
+relationship: part_of ATO:0000007 ! growth
+created_by: caripark
+creation_date: 2008-11-11T12:43:08Z
+
+[Term]
+id: ID:0000323
+name: body weight (10 weeks)
+relationship: part_of ID:0000222 ! body weight
+created_by: caripark
+creation_date: 2008-11-11T12:48:27Z
+
+[Term]
+id: ID:0000324
+name: body weight (13 weeks)
+relationship: part_of ID:0000222 ! body weight
+created_by: caripark
+creation_date: 2008-11-11T12:48:27Z
+
+[Term]
+id: ID:0000325
+name: body weight (16 days)
+relationship: part_of ID:0000222 ! body weight
+created_by: caripark
+creation_date: 2008-11-11T12:48:27Z
+
+[Term]
+id: ID:0000326
+name: body weight (17 weeks)
+relationship: part_of ID:0000222 ! body weight
+created_by: caripark
+creation_date: 2008-11-11T12:48:27Z
+
+[Term]
+id: ID:0000327
+name: body weight (21 days)
+relationship: part_of ID:0000222 ! body weight
+created_by: caripark
+creation_date: 2008-11-11T12:48:27Z
+
+[Term]
+id: ID:0000328
+name: body weight (22 weeks)
+relationship: part_of ID:0000222 ! body weight
+created_by: caripark
+creation_date: 2008-11-11T12:48:27Z
+
+[Term]
+id: ID:0000329
+name: body weight (25 weeks)
+relationship: part_of ID:0000222 ! body weight
+created_by: caripark
+creation_date: 2008-11-11T12:48:27Z
+
+[Term]
+id: ID:0000330
+name: body weight (26 weeks)
+relationship: part_of ID:0000222 ! body weight
+created_by: caripark
+creation_date: 2008-11-11T12:48:27Z
+
+[Term]
+id: ID:0000331
+name: body weight (3 weeks)
+relationship: part_of ID:0000222 ! body weight
+created_by: caripark
+creation_date: 2008-11-11T12:48:27Z
+
+[Term]
+id: ID:0000332
+name: body weight (30 days)
+relationship: part_of ID:0000222 ! body weight
+created_by: caripark
+creation_date: 2008-11-11T12:48:27Z
+
+[Term]
+id: ID:0000333
+name: body weight (35 days)
+relationship: part_of ID:0000222 ! body weight
+created_by: caripark
+creation_date: 2008-11-11T12:48:27Z
+
+[Term]
+id: ID:0000334
+name: body weight (4 weeks)
+relationship: part_of ID:0000222 ! body weight
+created_by: caripark
+creation_date: 2008-11-11T12:48:27Z
+
+[Term]
+id: ID:0000335
+name: body weight (60 days)
+relationship: part_of ID:0000222 ! body weight
+created_by: caripark
+creation_date: 2008-11-11T12:48:27Z
+
+[Term]
+id: ID:0000336
+name: body weight (8 weeks)
+relationship: part_of ID:0000222 ! body weight
+created_by: caripark
+creation_date: 2008-11-11T12:48:27Z
+
+[Term]
+id: ID:0000337
+name: body weight at birth
+relationship: part_of ID:0000222 ! body weight
+created_by: caripark
+creation_date: 2008-11-11T12:48:27Z
+
+[Term]
+id: ID:0000338
+name: body weight at slaughter
+relationship: part_of ID:0000222 ! body weight
+created_by: caripark
+creation_date: 2008-11-11T12:48:27Z
+
+[Term]
+id: ID:0000339
+name: body weight at weaning
+relationship: part_of ID:0000222 ! body weight
+created_by: caripark
+creation_date: 2008-11-11T12:48:27Z
+
+[Term]
+id: ID:0000340
+name: longevity
+relationship: part_of ID:0000004 ! age
+created_by: caripark
+creation_date: 2008-11-11T12:52:40Z
+
+[Term]
+id: ID:0000341
+name: ACTH basal level
+relationship: part_of ID:0000002 ! behavioral
+created_by: caripark
+creation_date: 2008-11-11T12:58:57Z
+
+[Term]
+id: ID:0000342
+name: ACTH response to stress
+relationship: part_of ID:0000002 ! behavioral
+created_by: caripark
+creation_date: 2008-11-11T12:58:57Z
+
+[Term]
+id: ID:0000343
+name: basal cortisol levels
+relationship: part_of ID:0000002 ! behavioral
+created_by: caripark
+creation_date: 2008-11-11T12:58:57Z
+
+[Term]
+id: ID:0000344
+name: basal glucose levels
+relationship: part_of ID:0000002 ! behavioral
+created_by: caripark
+creation_date: 2008-11-11T12:58:57Z
+
+[Term]
+id: ID:0000345
+name: exploration
+relationship: part_of ID:0000002 ! behavioral
+created_by: caripark
+creation_date: 2008-11-11T12:58:57Z
+
+[Term]
+id: ID:0000346
+name: locomotion
+relationship: part_of ID:0000002 ! behavioral
+created_by: caripark
+creation_date: 2008-11-11T12:58:57Z
+
+[Term]
+id: ID:0000347
+name: glucose level response to stress
+relationship: part_of ID:0000002 ! behavioral
+created_by: caripark
+creation_date: 2008-11-11T12:58:57Z
+
+[Term]
+id: ID:0000348
+name: glucose level variations
+relationship: part_of ID:0000002 ! behavioral
+created_by: caripark
+creation_date: 2008-11-11T12:58:57Z
+
+[Term]
+id: ID:0000349
+name: neuroendocrine responses
+relationship: part_of ID:0000002 ! behavioral
+created_by: caripark
+creation_date: 2008-11-11T12:58:57Z
+
+[Term]
+id: ID:0000350
+name: post-stress cortisol levels
+relationship: part_of ID:0000002 ! behavioral
+created_by: caripark
+creation_date: 2008-11-11T12:58:57Z
+
+[Term]
+id: ID:0000351
+name: black coat color
+relationship: part_of ID:0000001 ! pigmentation
+created_by: caripark
+creation_date: 2008-11-11T01:01:13Z
+
+[Term]
+id: ID:0000352
+name: white coat color
+relationship: part_of ID:0000001 ! pigmentation
+created_by: caripark
+creation_date: 2008-11-11T01:01:13Z
+
+[Term]
+id: ID:0000353
+name: spotted coat
+relationship: part_of ID:0000001 ! pigmentation
+created_by: caripark
+creation_date: 2008-11-11T01:01:13Z
+
+[Term]
+id: ID:0000354
+name: rhinitis
+relationship: part_of ID:0000003 ! defects
+created_by: caripark
+creation_date: 2008-11-11T01:10:14Z
+
+[Term]
+id: ID:0000355
+name: scrotal hernia
+relationship: part_of ID:0000003 ! defects
+created_by: caripark
+creation_date: 2008-11-11T01:10:14Z
+
+[Term]
+id: ID:0000356
+name: swelling of joints
+relationship: part_of ID:0000003 ! defects
+created_by: caripark
+creation_date: 2008-11-11T01:10:14Z
+
+[Term]
+id: ID:0000357
+name: joint abnormalities
+relationship: part_of ID:0000003 ! defects
+created_by: caripark
+creation_date: 2008-11-11T01:10:14Z
+
+[Term]
+id: ID:0000358
+name: joint lesions
+relationship: part_of ID:0000003 ! defects
+created_by: caripark
+creation_date: 2008-11-11T01:10:14Z
+
+[Term]
+id: ID:0000359
+name: osteochondrosis
+relationship: part_of ID:0000003 ! defects
+created_by: caripark
+creation_date: 2008-11-11T01:10:14Z
+
+[Term]
+id: ID:0000360
+name: body length
+relationship: part_of ID:0000000 ! conformation
+created_by: caripark
+creation_date: 2008-11-11T01:13:23Z
+
+[Term]
+id: ID:0000361
+name: circumference of cannon bone
+relationship: part_of ID:0000000 ! conformation
+created_by: caripark
+creation_date: 2008-11-11T01:13:23Z
+
+[Term]
+id: ID:0000362
+name: length of claws (front inside)
+relationship: part_of ID:0000000 ! conformation
+created_by: caripark
+creation_date: 2008-11-11T01:13:23Z
+
+[Term]
+id: ID:0000363
+name: length of claws (front outside)
+relationship: part_of ID:0000000 ! conformation
+created_by: caripark
+creation_date: 2008-11-11T01:13:23Z
+
+[Term]
+id: ID:0000364
+name: length of claws (hind inside)
+relationship: part_of ID:0000000 ! conformation
+created_by: caripark
+creation_date: 2008-11-11T01:13:23Z
+
+[Term]
+id: ID:0000365
+name: length of claws (hind outside)
+relationship: part_of ID:0000000 ! conformation
+created_by: caripark
+creation_date: 2008-11-11T01:13:23Z
+
+[Term]
+id: ID:0000366
+name: feet and legs score
+relationship: part_of ID:0000000 ! conformation
+created_by: caripark
+creation_date: 2008-11-11T01:13:23Z
+
+[Term]
+id: ID:0000367
+name: feet score (front)
+relationship: part_of ID:0000000 ! conformation
+created_by: caripark
+creation_date: 2008-11-11T01:13:23Z
+
+[Term]
+id: ID:0000368
+name: feet score (hind)
+relationship: part_of ID:0000000 ! conformation
+created_by: caripark
+creation_date: 2008-11-11T01:13:23Z
+
+[Term]
+id: ID:0000369
+name: femur dimensions
+relationship: part_of ID:0000000 ! conformation
+created_by: caripark
+creation_date: 2008-11-11T01:13:23Z
+
+[Term]
+id: ID:0000370
+name: hair (amount)
+relationship: part_of ID:0000000 ! conformation
+created_by: caripark
+creation_date: 2008-11-11T01:13:23Z
+
+[Term]
+id: ID:0000371
+name: height
+relationship: part_of ID:0000000 ! conformation
+created_by: caripark
+creation_date: 2008-11-11T01:13:23Z
+
+[Term]
+id: ID:0000372
+name: leg length
+relationship: part_of ID:0000000 ! conformation
+created_by: caripark
+creation_date: 2008-11-11T01:13:23Z
+
+[Term]
+id: ID:0000373
+name: leg pastern (front)
+relationship: part_of ID:0000000 ! conformation
+created_by: caripark
+creation_date: 2008-11-11T01:13:23Z
+
+[Term]
+id: ID:0000374
+name: leg pastern (hind)
+relationship: part_of ID:0000000 ! conformation
+created_by: caripark
+creation_date: 2008-11-11T01:13:23Z
+
+[Term]
+id: ID:0000375
+name: leg score (front)
+relationship: part_of ID:0000000 ! conformation
+created_by: caripark
+creation_date: 2008-11-11T01:13:23Z
+
+[Term]
+id: ID:0000376
+name: leg score (hind)
+relationship: part_of ID:0000000 ! conformation
+created_by: caripark
+creation_date: 2008-11-11T01:13:23Z
+
+[Term]
+id: ID:0000377
+name: leg set view
+relationship: part_of ID:0000000 ! conformation
+created_by: caripark
+creation_date: 2008-11-11T01:13:23Z
+
+[Term]
+id: ID:0000378
+name: leg torsion (front)
+relationship: part_of ID:0000000 ! conformation
+created_by: caripark
+creation_date: 2008-11-11T01:13:23Z
+
+[Term]
+id: ID:0000379
+name: leg torsion (hind)
+relationship: part_of ID:0000000 ! conformation
+created_by: caripark
+creation_date: 2008-11-11T01:13:23Z
+
+[Term]
+id: ID:0000380
+name: leg angularity (front)
+relationship: part_of ID:0000000 ! conformation
+created_by: caripark
+creation_date: 2008-11-11T01:13:23Z
+
+[Term]
+id: ID:0000381
+name: leg angularity (hind)
+relationship: part_of ID:0000000 ! conformation
+created_by: caripark
+creation_date: 2008-11-11T01:13:23Z
+
+[Term]
+id: ID:0000382
+name: lob ear
+relationship: part_of ID:0000000 ! conformation
+created_by: caripark
+creation_date: 2008-11-11T01:13:23Z
+
+[Term]
+id: ID:0000383
+name: nose score
+relationship: part_of ID:0000000 ! conformation
+created_by: caripark
+creation_date: 2008-11-11T01:13:23Z
+
+[Term]
+id: ID:0000384
+name: vertebra distance
+relationship: part_of ID:0000000 ! conformation
+created_by: caripark
+creation_date: 2008-11-11T01:14:37Z
+
+[Term]
+id: ID:0000385
+name: total vertebra number
+relationship: part_of ID:0000118 ! vertebra number
+created_by: caripark
+creation_date: 2008-11-11T01:16:14Z
+
+[Term]
+id: ID:0000386
+name: anti-K88 E. coli IgG levels
+relationship: part_of ID:0000005 ! disease resistance
+created_by: caripark
+creation_date: 2008-11-11T01:40:12Z
+
+[Term]
+id: ID:0000387
+name: anti-0149 E. coli IgG level response
+relationship: part_of ID:0000005 ! disease resistance
+created_by: caripark
+creation_date: 2008-11-11T01:40:12Z
+
+[Term]
+id: ID:0000388
+name: anti-0149 E. coli IgG levels
+relationship: part_of ID:0000005 ! disease resistance
+created_by: caripark
+creation_date: 2008-11-11T01:40:12Z
+
+[Term]
+id: ID:0000389
+name: resistance to E. coli K88 infection
+relationship: part_of ID:0000005 ! disease resistance
+created_by: caripark
+creation_date: 2008-11-11T01:40:12Z
+
+[Term]
+id: ID:0000390
+name: resistance to pseudorabies virus infection
+relationship: part_of ID:0000005 ! disease resistance
+created_by: caripark
+creation_date: 2008-11-11T01:40:12Z
+
+[Term]
+id: ID:0000391
+name: small intestinal E. coli F18 receptor
+relationship: part_of ID:0000005 ! disease resistance
+created_by: caripark
+creation_date: 2008-11-11T01:40:12Z
+
+[Term]
+id: ID:0000392
+name: conA-induced proliferation
+relationship: part_of ID:0000011 ! immune capacity
+created_by: caripark
+creation_date: 2008-11-11T01:50:35Z
+
+[Term]
+id: ID:0000393
+name: mitogen-induced proliferation
+relationship: part_of ID:0000011 ! immune capacity
+created_by: caripark
+creation_date: 2008-11-11T01:50:35Z
+
+[Term]
+id: ID:0000394
+name: pokeweed mitogen (PWM)-induced proliferation
+relationship: part_of ID:0000011 ! immune capacity
+created_by: caripark
+creation_date: 2008-11-11T01:50:35Z
+
+[Term]
+id: ID:0000395
+name: post-stress mitogen-induced IL-2 activity
+relationship: part_of ID:0000011 ! immune capacity
+created_by: caripark
+creation_date: 2008-11-11T01:50:35Z
+
+[Term]
+id: ID:0000396
+name: pre-/post-vaccination levels of IgG to K88 antigen
+relationship: part_of ID:0000011 ! immune capacity
+created_by: caripark
+creation_date: 2008-11-11T01:50:35Z
+
+[Term]
+id: ID:0000397
+name: specific IgG response to E. coli 0149 antigen
+relationship: part_of ID:0000011 ! immune capacity
+created_by: caripark
+creation_date: 2008-11-11T01:50:35Z
+
+[Term]
+id: ID:0000398
+name: spontaneous proliferation
+relationship: part_of ID:0000011 ! immune capacity
+created_by: caripark
+creation_date: 2008-11-11T01:50:35Z
+
+[Term]
+id: ID:0000399
+name: stress-induced leukocyte proliferation
+relationship: part_of ID:0000011 ! immune capacity
+created_by: caripark
+creation_date: 2008-11-11T01:50:35Z
+
+[Term]
+id: ID:0000400
+name: stress-induced neutrophil number alteration
+relationship: part_of ID:0000011 ! immune capacity
+created_by: caripark
+creation_date: 2008-11-11T01:50:35Z
+
+[Term]
+id: ID:0000401
+name: androstenone, laboratory
+relationship: part_of ID:0000097 ! chemical
+created_by: caripark
+creation_date: 2008-11-11T02:26:46Z
+
+[Term]
+id: ID:0000402
+name: salmonella count in feces (day 1 post-infection)
+relationship: part_of ID:0000012 ! pathogen
+created_by: caripark
+creation_date: 2008-11-11T01:54:41Z
+
+[Term]
+id: ID:0000403
+name: salmonella count in feces (day 7 post-infection)
+relationship: part_of ID:0000012 ! pathogen
+created_by: caripark
+creation_date: 2008-11-11T01:54:41Z
+
+[Term]
+id: ID:0000404
+name: salmonella count in liver
+relationship: part_of ID:0000012 ! pathogen
+created_by: caripark
+creation_date: 2008-11-11T01:54:41Z
+
+[Term]
+id: ID:0000405
+name: salmonella count in spleen
+relationship: part_of ID:0000012 ! pathogen
+created_by: caripark
+creation_date: 2008-11-11T01:54:41Z
+
+[Term]
+id: ID:0000406
+name: cold carcass weight
+relationship: part_of ID:0000114 ! carcass weight
+created_by: caripark
+creation_date: 2008-11-11T01:57:31Z
+
+[Term]
+id: ID:0000407
+name: belly percentage
+relationship: part_of ID:0000095 ! anatomy
+created_by: caripark
+creation_date: 2008-11-11T02:01:04Z
+
+[Term]
+id: ID:0000408
+name: belly weight
+relationship: part_of ID:0000095 ! anatomy
+created_by: caripark
+creation_date: 2008-11-11T02:01:04Z
+
+[Term]
+id: ID:0000409
+name: body mass index
+relationship: part_of ID:0000095 ! anatomy
+created_by: caripark
+creation_date: 2008-11-11T02:01:04Z
+
+[Term]
+id: ID:0000410
+name: bone percent
+relationship: part_of ID:0000095 ! anatomy
+created_by: caripark
+creation_date: 2008-11-11T02:01:04Z
+
+[Term]
+id: ID:0000411
+name: carcass length
+relationship: part_of ID:0000095 ! anatomy
+created_by: caripark
+creation_date: 2008-11-11T02:01:04Z
+
+[Term]
+id: ID:0000412
+name: carcass thickness
+relationship: part_of ID:0000095 ! anatomy
+created_by: caripark
+creation_date: 2008-11-11T02:01:04Z
+
+[Term]
+id: ID:0000413
+name: average glycogen
+relationship: part_of ID:0000097 ! chemical
+created_by: caripark
+creation_date: 2008-11-11T02:26:46Z
+
+[Term]
+id: ID:0000414
+name: diaphragm weight
+relationship: part_of ID:0000095 ! anatomy
+created_by: caripark
+creation_date: 2008-11-11T02:01:04Z
+
+[Term]
+id: ID:0000415
+name: average glycolytic potential
+relationship: part_of ID:0000097 ! chemical
+created_by: caripark
+creation_date: 2008-11-11T02:26:46Z
+
+[Term]
+id: ID:0000416
+name: estimated carcass lean content
+relationship: part_of ID:0000095 ! anatomy
+created_by: caripark
+creation_date: 2008-11-11T02:01:04Z
+
+[Term]
+id: ID:0000417
+name: eye muscle depth
+relationship: part_of ID:0000095 ! anatomy
+created_by: caripark
+creation_date: 2008-11-11T02:01:04Z
+
+[Term]
+id: ID:0000418
+name: fat-cut percentage
+relationship: part_of ID:0000095 ! anatomy
+created_by: caripark
+creation_date: 2008-11-11T02:01:04Z
+
+[Term]
+id: ID:0000419
+name: feet weight
+relationship: part_of ID:0000095 ! anatomy
+created_by: caripark
+creation_date: 2008-11-11T02:01:04Z
+
+[Term]
+id: ID:0000420
+name: head weight
+relationship: part_of ID:0000095 ! anatomy
+created_by: caripark
+creation_date: 2008-11-11T02:01:04Z
+
+[Term]
+id: ID:0000421
+name: small intestine length
+relationship: part_of ID:0000228 ! intestine length
+created_by: caripark
+creation_date: 2008-11-11T02:01:04Z
+
+[Term]
+id: ID:0000422
+name: shoulder weight
+relationship: part_of ID:0000095 ! anatomy
+created_by: caripark
+creation_date: 2008-11-11T02:01:04Z
+
+[Term]
+id: ID:0000423
+name: skin percentage
+relationship: part_of ID:0000095 ! anatomy
+created_by: caripark
+creation_date: 2008-11-11T02:01:04Z
+
+[Term]
+id: ID:0000424
+name: skin thickness
+relationship: part_of ID:0000095 ! anatomy
+created_by: caripark
+creation_date: 2008-11-11T02:01:04Z
+
+[Term]
+id: ID:0000425
+name: skin weight
+relationship: part_of ID:0000095 ! anatomy
+created_by: caripark
+creation_date: 2008-11-11T02:01:04Z
+
+[Term]
+id: ID:0000426
+name: trimmed wholesale product/carcass weight
+relationship: part_of ID:0000095 ! anatomy
+created_by: caripark
+creation_date: 2008-11-11T02:01:04Z
+
+[Term]
+id: ID:0000427
+name: trimmed wholesale product/live weight
+relationship: part_of ID:0000095 ! anatomy
+created_by: caripark
+creation_date: 2008-11-11T02:01:04Z
+
+[Term]
+id: ID:0000428
+name: carcass fat-free weight
+relationship: part_of ID:0000114 ! carcass weight
+created_by: caripark
+creation_date: 2008-11-11T02:01:17Z
+
+[Term]
+id: ID:0000429
+name: average lactate
+relationship: part_of ID:0000097 ! chemical
+created_by: caripark
+creation_date: 2008-11-11T02:26:46Z
+
+[Term]
+id: ID:0000430
+name: cholesterol
+relationship: part_of ID:0000097 ! chemical
+created_by: caripark
+creation_date: 2008-11-11T02:26:46Z
+
+[Term]
+id: ID:0000431
+name: indole, laboratory
+relationship: part_of ID:0000097 ! chemical
+created_by: caripark
+creation_date: 2008-11-11T02:26:46Z
+
+[Term]
+id: ID:0000432
+name: muscle moisture percentage
+relationship: part_of ID:0000097 ! chemical
+created_by: caripark
+creation_date: 2008-11-11T02:26:46Z
+
+[Term]
+id: ID:0000433
+name: muscle protein percentage
+relationship: part_of ID:0000097 ! chemical
+created_by: caripark
+creation_date: 2008-11-11T02:26:46Z
+
+[Term]
+id: ID:0000434
+name: skatole, laboratory
+relationship: part_of ID:0000097 ! chemical
+created_by: caripark
+creation_date: 2008-11-11T02:26:46Z
+
+[Term]
+id: ID:0000435
+name: conductivity
+relationship: part_of ID:0000014 ! carcass
+created_by: caripark
+creation_date: 2008-11-11T02:27:18Z
+
+[Term]
+id: ID:0000436
+name: conductivity (24 hr post-mortem)
+relationship: part_of ID:0000435 ! conductivity
+created_by: caripark
+creation_date: 2008-11-11T02:29:54Z
+
+[Term]
+id: ID:0000437
+name: conductivity (45 min post-mortem)
+relationship: part_of ID:0000435 ! conductivity
+created_by: caripark
+creation_date: 2008-11-11T02:29:54Z
+
+[Term]
+id: ID:0000438
+name: creatine-phospho-kinase test
+relationship: part_of ID:0000098 ! enzyme activity
+created_by: caripark
+creation_date: 2008-11-11T02:33:29Z
+
+[Term]
+id: ID:0000439
+name: 7-octadecenoic acid percentage
+relationship: part_of ID:0000099 ! fat composition
+created_by: caripark
+creation_date: 2008-11-11T02:37:42Z
+
+[Term]
+id: ID:0000440
+name: average chain length
+relationship: part_of ID:0000099 ! fat composition
+created_by: caripark
+creation_date: 2008-11-11T02:37:42Z
+
+[Term]
+id: ID:0000441
+name: double-bond index
+relationship: part_of ID:0000099 ! fat composition
+created_by: caripark
+creation_date: 2008-11-11T02:37:42Z
+
+[Term]
+id: ID:0000442
+name: eicosadienoic acid percentage
+relationship: part_of ID:0000099 ! fat composition
+created_by: caripark
+creation_date: 2008-11-11T02:37:42Z
+
+[Term]
+id: ID:0000443
+name: eicosenoic acid percentage
+relationship: part_of ID:0000099 ! fat composition
+created_by: caripark
+creation_date: 2008-11-11T02:37:42Z
+
+[Term]
+id: ID:0000444
+name: fat androstenone level
+relationship: part_of ID:0000099 ! fat composition
+created_by: caripark
+creation_date: 2008-11-11T02:37:42Z
+
+[Term]
+id: ID:0000445
+name: heptadecanoic acid percentage
+relationship: part_of ID:0000099 ! fat composition
+created_by: caripark
+creation_date: 2008-11-11T02:37:42Z
+
+[Term]
+id: ID:0000446
+name: linoleic acid percentage
+relationship: part_of ID:0000099 ! fat composition
+created_by: caripark
+creation_date: 2008-11-11T02:37:42Z
+
+[Term]
+id: ID:0000447
+name: linolenic acid percentage
+relationship: part_of ID:0000099 ! fat composition
+created_by: caripark
+creation_date: 2008-11-11T02:37:42Z
+
+[Term]
+id: ID:0000448
+name: myristic acid percentage
+relationship: part_of ID:0000099 ! fat composition
+created_by: caripark
+creation_date: 2008-11-11T02:37:42Z
+
+[Term]
+id: ID:0000449
+name: oleic acid percentage
+relationship: part_of ID:0000099 ! fat composition
+created_by: caripark
+creation_date: 2008-11-11T02:37:42Z
+
+[Term]
+id: ID:0000450
+name: palmitic acid percentage
+relationship: part_of ID:0000099 ! fat composition
+created_by: caripark
+creation_date: 2008-11-11T02:37:42Z
+
+[Term]
+id: ID:0000451
+name: palmitoleic acid percentage
+relationship: part_of ID:0000099 ! fat composition
+created_by: caripark
+creation_date: 2008-11-11T02:37:42Z
+
+[Term]
+id: ID:0000452
+name: peroxidabiliity index
+relationship: part_of ID:0000099 ! fat composition
+created_by: caripark
+creation_date: 2008-11-11T02:37:42Z
+
+[Term]
+id: ID:0000453
+name: stearic acid percentage
+relationship: part_of ID:0000099 ! fat composition
+created_by: caripark
+creation_date: 2008-11-11T02:37:42Z
+
+[Term]
+id: ID:0000454
+name: unsaturated index
+relationship: part_of ID:0000099 ! fat composition
+created_by: caripark
+creation_date: 2008-11-11T02:37:42Z
+
+[Term]
+id: ID:0000455
+name: fat androstenone level (100 days of age)
+relationship: part_of ID:0000444 ! fat androstenone level
+created_by: caripark
+creation_date: 2008-11-11T02:38:46Z
+
+[Term]
+id: ID:0000456
+name: fat androstenone level (120 days of age)
+relationship: part_of ID:0000444 ! fat androstenone level
+created_by: caripark
+creation_date: 2008-11-11T02:38:46Z
+
+[Term]
+id: ID:0000457
+name: fat androstenone level (140 days of age)
+relationship: part_of ID:0000444 ! fat androstenone level
+created_by: caripark
+creation_date: 2008-11-11T02:38:46Z
+
+[Term]
+id: ID:0000458
+name: fat androstenone level (160 days of age)
+relationship: part_of ID:0000444 ! fat androstenone level
+created_by: caripark
+creation_date: 2008-11-11T02:38:46Z
+
+[Term]
+id: ID:0000459
+name: abdominal fat
+relationship: part_of ID:0000100 ! fat deposition
+created_by: caripark
+creation_date: 2008-11-11T02:41:11Z
+
+[Term]
+id: ID:0000460
+name: fat area
+relationship: part_of ID:0000100 ! fat deposition
+created_by: caripark
+creation_date: 2008-11-11T02:47:13Z
+
+[Term]
+id: ID:0000461
+name: fat cuts
+relationship: part_of ID:0000100 ! fat deposition
+created_by: caripark
+creation_date: 2008-11-11T02:47:13Z
+
+[Term]
+id: ID:0000462
+name: fat percentage in carcass
+relationship: part_of ID:0000100 ! fat deposition
+created_by: caripark
+creation_date: 2008-11-11T02:47:13Z
+
+[Term]
+id: ID:0000463
+name: fat ratio (percentage)
+relationship: part_of ID:0000100 ! fat deposition
+created_by: caripark
+creation_date: 2008-11-11T02:47:13Z
+
+[Term]
+id: ID:0000464
+name: fat-to-meat ratio
+relationship: part_of ID:0000100 ! fat deposition
+created_by: caripark
+creation_date: 2008-11-11T02:47:13Z
+
+[Term]
+id: ID:0000465
+name: intermuscular fat weight
+relationship: part_of ID:0000100 ! fat deposition
+created_by: caripark
+creation_date: 2008-11-11T02:47:13Z
+
+[Term]
+id: ID:0000466
+name: internal fat ratio
+relationship: part_of ID:0000100 ! fat deposition
+created_by: caripark
+creation_date: 2008-11-11T02:47:13Z
+
+[Term]
+id: ID:0000467
+name: intestinal fat percent
+relationship: part_of ID:0000100 ! fat deposition
+created_by: caripark
+creation_date: 2008-11-11T02:47:13Z
+
+[Term]
+id: ID:0000468
+name: intestinal fat weight
+relationship: part_of ID:0000100 ! fat deposition
+created_by: caripark
+creation_date: 2008-11-11T02:47:13Z
+
+[Term]
+id: ID:0000469
+name: backfat depth
+relationship: part_of ID:0000124 ! backfat
+created_by: caripark
+creation_date: 2008-11-11T02:58:47Z
+
+[Term]
+id: ID:0000470
+name: leaf fat percentage
+relationship: part_of ID:0000100 ! fat deposition
+created_by: caripark
+creation_date: 2008-11-11T02:47:13Z
+
+[Term]
+id: ID:0000471
+name: leaf fat weight
+relationship: part_of ID:0000100 ! fat deposition
+created_by: caripark
+creation_date: 2008-11-11T02:47:13Z
+
+[Term]
+id: ID:0000472
+name: subcutaneous fat weight
+relationship: part_of ID:0000134 ! subcutaneous fat
+created_by: caripark
+creation_date: 2008-11-11T02:48:24Z
+
+[Term]
+id: ID:0000473
+name: backfat + leaf fat percentage
+relationship: part_of ID:0000124 ! backfat
+created_by: caripark
+creation_date: 2008-11-11T02:47:13Z
+
+[Term]
+id: ID:0000474
+name: residual fatty acids
+relationship: part_of ID:0000100 ! fat deposition
+created_by: caripark
+creation_date: 2008-11-11T02:47:13Z
+
+[Term]
+id: ID:0000475
+name: shoulder external fat weight
+relationship: part_of ID:0000100 ! fat deposition
+created_by: caripark
+creation_date: 2008-11-11T02:47:13Z
+
+[Term]
+id: ID:0000476
+name: shoulder fat depth
+relationship: part_of ID:0000100 ! fat deposition
+created_by: caripark
+creation_date: 2008-11-11T02:47:13Z
+
+[Term]
+id: ID:0000477
+name: side fat
+relationship: part_of ID:0000100 ! fat deposition
+created_by: caripark
+creation_date: 2008-11-11T02:47:13Z
+
+[Term]
+id: ID:0000478
+name: sum of all fatty acids
+relationship: part_of ID:0000100 ! fat deposition
+created_by: caripark
+creation_date: 2008-11-11T02:47:13Z
+
+[Term]
+id: ID:0000479
+name: total lipid
+relationship: part_of ID:0000100 ! fat deposition
+created_by: caripark
+creation_date: 2008-11-11T02:47:13Z
+
+[Term]
+id: ID:0000480
+name: intramuscular fat weight
+relationship: part_of ID:0000131 ! marbling
+created_by: caripark
+creation_date: 2008-11-11T02:54:44Z
+
+[Term]
+id: ID:0000481
+name: intramuscular fat percentage
+relationship: part_of ID:0000131 ! marbling
+created_by: caripark
+creation_date: 2008-11-11T02:54:44Z
+
+[Term]
+id: ID:0000482
+name: backfat percentage
+relationship: part_of ID:0000124 ! backfat
+created_by: caripark
+creation_date: 2008-11-11T02:58:47Z
+
+[Term]
+id: ID:0000483
+name: backfat weight
+relationship: part_of ID:0000124 ! backfat
+created_by: caripark
+creation_date: 2008-11-11T02:58:47Z
+
+[Term]
+id: ID:0000484
+name: backfat (40 kg live weight)
+relationship: part_of ID:0000469 ! backfat depth
+created_by: caripark
+creation_date: 2008-11-11T03:14:09Z
+
+[Term]
+id: ID:0000485
+name: backfat (60 kg live weight)
+relationship: part_of ID:0000469 ! backfat depth
+created_by: caripark
+creation_date: 2008-11-11T03:14:09Z
+
+[Term]
+id: ID:0000486
+name: average backfat thickness
+relationship: part_of ID:0000469 ! backfat depth
+created_by: caripark
+creation_date: 2008-11-11T03:14:09Z
+
+[Term]
+id: ID:0000487
+name: backfat above muscle dorsi
+relationship: part_of ID:0000469 ! backfat depth
+created_by: caripark
+creation_date: 2008-11-11T03:14:09Z
+
+[Term]
+id: ID:0000488
+name: backfat at first lumbar
+relationship: part_of ID:0000469 ! backfat depth
+created_by: caripark
+creation_date: 2008-11-11T03:14:09Z
+
+[Term]
+id: ID:0000489
+name: backfat at first rib
+relationship: part_of ID:0000469 ! backfat depth
+created_by: caripark
+creation_date: 2008-11-11T03:14:09Z
+
+[Term]
+id: ID:0000490
+name: backfat at last lumbar
+relationship: part_of ID:0000469 ! backfat depth
+created_by: caripark
+creation_date: 2008-11-11T03:14:09Z
+
+[Term]
+id: ID:0000491
+name: backfat at last rib
+relationship: part_of ID:0000469 ! backfat depth
+created_by: caripark
+creation_date: 2008-11-11T03:14:09Z
+
+[Term]
+id: ID:0000492
+name: backfat at neck
+relationship: part_of ID:0000469 ! backfat depth
+created_by: caripark
+creation_date: 2008-11-11T03:14:09Z
+
+[Term]
+id: ID:0000493
+name: backfat at P2 position
+relationship: part_of ID:0000469 ! backfat depth
+created_by: caripark
+creation_date: 2008-11-11T03:14:09Z
+
+[Term]
+id: ID:0000494
+name: backfat at rump
+relationship: part_of ID:0000469 ! backfat depth
+created_by: caripark
+creation_date: 2008-11-11T03:14:09Z
+
+[Term]
+id: ID:0000495
+name: backfat at shoulder
+relationship: part_of ID:0000469 ! backfat depth
+created_by: caripark
+creation_date: 2008-11-11T03:14:09Z
+
+[Term]
+id: ID:0000496
+name: backfat at tenth rib
+relationship: part_of ID:0000469 ! backfat depth
+created_by: caripark
+creation_date: 2008-11-11T03:14:09Z
+
+[Term]
+id: ID:0000497
+name: backfat between 3rd and 4th rib
+relationship: part_of ID:0000469 ! backfat depth
+created_by: caripark
+creation_date: 2008-11-11T03:14:09Z
+
+[Term]
+id: ID:0000498
+name: backfat between 6th and 7th rib
+relationship: part_of ID:0000469 ! backfat depth
+created_by: caripark
+creation_date: 2008-11-11T03:14:09Z
+
+[Term]
+id: ID:0000499
+name: backfat between 3rd and 4th lumbar
+relationship: part_of ID:0000469 ! backfat depth
+created_by: caripark
+creation_date: 2008-11-11T03:14:09Z
+
+[Term]
+id: ID:0000500
+name: backfat at max. mus. depth
+relationship: part_of ID:0000469 ! backfat depth
+created_by: caripark
+creation_date: 2008-11-11T03:14:09Z
+
+[Term]
+id: ID:0000501
+name: backfat on longissimus dorsi at 12th/14th rib
+relationship: part_of ID:0000469 ! backfat depth
+created_by: caripark
+creation_date: 2008-11-11T03:14:09Z
+
+[Term]
+id: ID:0000502
+name: backfat on longissimus dorsi at 13th/14th rib
+relationship: part_of ID:0000469 ! backfat depth
+created_by: caripark
+creation_date: 2008-11-11T03:14:09Z
+
+[Term]
+id: ID:0000503
+name: backfat middle
+relationship: part_of ID:0000469 ! backfat depth
+created_by: caripark
+creation_date: 2008-11-11T03:14:09Z
+
+[Term]
+id: ID:0000504
+name: backfat side
+relationship: part_of ID:0000469 ! backfat depth
+created_by: caripark
+creation_date: 2008-11-11T03:14:09Z
+
+[Term]
+id: ID:0000505
+name: backfat 3 vertebrae beneath last rib
+relationship: part_of ID:0000469 ! backfat depth
+created_by: caripark
+creation_date: 2008-11-11T03:14:09Z
+
+[Term]
+id: ID:0000506
+name: backfat at first rib (14 weeks of age)
+relationship: part_of ID:0000489 ! backfat at first rib
+created_by: caripark
+creation_date: 2008-11-11T03:18:14Z
+
+[Term]
+id: ID:0000507
+name: backfat at mid-back
+relationship: part_of ID:0000469 ! backfat depth
+created_by: caripark
+creation_date: 2008-11-11T03:14:09Z
+
+[Term]
+id: ID:0000508
+name: FOM backfat depth
+relationship: part_of ID:0000469 ! backfat depth
+created_by: caripark
+creation_date: 2008-11-11T03:14:09Z
+
+[Term]
+id: ID:0000509
+name: loin fat depth
+relationship: part_of ID:0000469 ! backfat depth
+created_by: caripark
+creation_date: 2008-11-11T03:14:09Z
+
+[Term]
+id: ID:0000510
+name: backfat at last rib (14 weeks of age)
+relationship: part_of ID:0000491 ! backfat at last rib
+created_by: caripark
+creation_date: 2008-11-11T03:15:39Z
+
+[Term]
+id: ID:0000511
+name: backfat at last rib (26 weeks of age)
+relationship: part_of ID:0000491 ! backfat at last rib
+created_by: caripark
+creation_date: 2008-11-11T03:15:39Z
+
+[Term]
+id: ID:0000512
+name: backfat at first rib (26 weeks of age)
+relationship: part_of ID:0000489 ! backfat at first rib
+created_by: caripark
+creation_date: 2008-11-11T03:18:14Z
+
+[Term]
+id: ID:0000513
+name: backfat at last lumbar (14 weeks of age)
+relationship: part_of ID:0000490 ! backfat at last lumbar
+created_by: caripark
+creation_date: 2008-11-11T03:19:01Z
+
+[Term]
+id: ID:0000514
+name: backfat at last lumbar (26 weeks of age)
+relationship: part_of ID:0000490 ! backfat at last lumbar
+created_by: caripark
+creation_date: 2008-11-11T03:19:01Z
+
+[Term]
+id: ID:0000515
+name: backfat at tenth rib (13 weeks of age)
+relationship: part_of ID:0000496 ! backfat at tenth rib
+created_by: caripark
+creation_date: 2008-11-11T03:20:15Z
+
+[Term]
+id: ID:0000516
+name: backfat at tenth rib (17 weeks of age)
+relationship: part_of ID:0000496 ! backfat at tenth rib
+created_by: caripark
+creation_date: 2008-11-11T03:20:15Z
+
+[Term]
+id: ID:0000517
+name: backfat at tenth rib (22 weeks of age)
+relationship: part_of ID:0000496 ! backfat at tenth rib
+created_by: caripark
+creation_date: 2008-11-11T03:20:15Z
+
+[Term]
+id: ID:0000518
+name: 7-octadecenoic, 18:1n-7
+relationship: part_of ID:0000101 ! fatty acid composition
+created_by: caripark
+creation_date: 2008-11-11T03:26:41Z
+
+[Term]
+id: ID:0000519
+name: eicosadienoic, 20:2
+relationship: part_of ID:0000101 ! fatty acid composition
+created_by: caripark
+creation_date: 2008-11-11T03:26:41Z
+
+[Term]
+id: ID:0000520
+name: eicosenoic, 20:1
+relationship: part_of ID:0000101 ! fatty acid composition
+created_by: caripark
+creation_date: 2008-11-11T03:26:41Z
+
+[Term]
+id: ID:0000521
+name: fatty acid C17:0
+relationship: part_of ID:0000101 ! fatty acid composition
+created_by: caripark
+creation_date: 2008-11-11T03:26:41Z
+
+[Term]
+id: ID:0000522
+name: linoleic, 18:2
+relationship: part_of ID:0000101 ! fatty acid composition
+created_by: caripark
+creation_date: 2008-11-11T03:26:41Z
+
+[Term]
+id: ID:0000523
+name: linolenic, 18:3
+relationship: part_of ID:0000101 ! fatty acid composition
+created_by: caripark
+creation_date: 2008-11-11T03:26:41Z
+
+[Term]
+id: ID:0000524
+name: myristic, 14:0
+relationship: part_of ID:0000101 ! fatty acid composition
+created_by: caripark
+creation_date: 2008-11-11T03:26:41Z
+
+[Term]
+id: ID:0000525
+name: oleic, 18:1
+relationship: part_of ID:0000101 ! fatty acid composition
+created_by: caripark
+creation_date: 2008-11-11T03:26:41Z
+
+[Term]
+id: ID:0000526
+name: palmitic, 16:0
+relationship: part_of ID:0000101 ! fatty acid composition
+created_by: caripark
+creation_date: 2008-11-11T03:26:41Z
+
+[Term]
+id: ID:0000527
+name: palmitoleic, 16:1
+relationship: part_of ID:0000101 ! fatty acid composition
+created_by: caripark
+creation_date: 2008-11-11T03:26:41Z
+
+[Term]
+id: ID:0000528
+name: stearic, 18:0
+relationship: part_of ID:0000101 ! fatty acid composition
+created_by: caripark
+creation_date: 2008-11-11T03:26:41Z
+
+[Term]
+id: ID:0000529
+name: androstenone, taste panel
+relationship: part_of ID:0000102 ! flavor
+created_by: caripark
+creation_date: 2008-11-11T03:29:36Z
+
+[Term]
+id: ID:0000530
+name: intensity taste
+relationship: part_of ID:0000102 ! flavor
+created_by: caripark
+creation_date: 2008-11-11T03:29:36Z
+
+[Term]
+id: ID:0000531
+name: pork flavor in fat
+relationship: part_of ID:0000102 ! flavor
+created_by: caripark
+creation_date: 2008-11-11T03:29:36Z
+
+[Term]
+id: ID:0000532
+name: pork flavor in lean
+relationship: part_of ID:0000102 ! flavor
+created_by: caripark
+creation_date: 2008-11-11T03:29:36Z
+
+[Term]
+id: ID:0000533
+name: skatole, taste panel
+relationship: part_of ID:0000102 ! flavor
+created_by: caripark
+creation_date: 2008-11-11T03:29:36Z
+
+[Term]
+id: ID:0000534
+name: subjective abnormal flavor in fat
+relationship: part_of ID:0000102 ! flavor
+created_by: caripark
+creation_date: 2008-11-11T03:29:36Z
+
+[Term]
+id: ID:0000535
+name: subjective abnormal flavor in lean
+relationship: part_of ID:0000102 ! flavor
+created_by: caripark
+creation_date: 2008-11-11T03:29:36Z
+
+[Term]
+id: ID:0000536
+name: subjective boar flavor in fat
+relationship: part_of ID:0000102 ! flavor
+created_by: caripark
+creation_date: 2008-11-11T03:29:36Z
+
+[Term]
+id: ID:0000537
+name: subjective boar flavor in lean
+relationship: part_of ID:0000102 ! flavor
+created_by: caripark
+creation_date: 2008-11-11T03:29:36Z
+
+[Term]
+id: ID:0000538
+name: subjective chew score
+relationship: part_of ID:0000102 ! flavor
+created_by: caripark
+creation_date: 2008-11-11T03:29:36Z
+
+[Term]
+id: ID:0000539
+name: subjective flavor score
+relationship: part_of ID:0000102 ! flavor
+created_by: caripark
+creation_date: 2008-11-11T03:29:36Z
+
+[Term]
+id: ID:0000540
+name: subjective juiciness score
+relationship: part_of ID:0000102 ! flavor
+created_by: caripark
+creation_date: 2008-11-11T03:29:36Z
+
+[Term]
+id: ID:0000541
+name: subjective off-flavor score
+relationship: part_of ID:0000102 ! flavor
+created_by: caripark
+creation_date: 2008-11-11T03:29:36Z
+
+[Term]
+id: ID:0000542
+name: subjective pork flavor in fat
+relationship: part_of ID:0000102 ! flavor
+created_by: caripark
+creation_date: 2008-11-11T03:29:36Z
+
+[Term]
+id: ID:0000543
+name: subjective pork flavor in lean
+relationship: part_of ID:0000102 ! flavor
+created_by: caripark
+creation_date: 2008-11-11T03:29:36Z
+
+[Term]
+id: ID:0000544
+name: subjective tenderness score
+relationship: part_of ID:0000102 ! flavor
+created_by: caripark
+creation_date: 2008-11-11T03:29:36Z
+
+[Term]
+id: ID:0000545
+name: chroma
+relationship: part_of ID:0000104 ! meat color
+created_by: caripark
+creation_date: 2008-11-11T03:33:19Z
+
+[Term]
+id: ID:0000546
+name: color a
+relationship: part_of ID:0000104 ! meat color
+created_by: caripark
+creation_date: 2008-11-11T03:33:19Z
+
+[Term]
+id: ID:0000547
+name: color b
+relationship: part_of ID:0000104 ! meat color
+created_by: caripark
+creation_date: 2008-11-11T03:33:19Z
+
+[Term]
+id: ID:0000548
+name: color L
+relationship: part_of ID:0000104 ! meat color
+created_by: caripark
+creation_date: 2008-11-11T03:33:19Z
+
+[Term]
+id: ID:0000549
+name: color score
+relationship: part_of ID:0000104 ! meat color
+created_by: caripark
+creation_date: 2008-11-11T03:33:19Z
+
+[Term]
+id: ID:0000550
+name: haematin pigmentation
+relationship: part_of ID:0000104 ! meat color
+created_by: caripark
+creation_date: 2008-11-11T03:33:19Z
+
+[Term]
+id: ID:0000551
+name: hue
+relationship: part_of ID:0000104 ! meat color
+created_by: caripark
+creation_date: 2008-11-11T03:33:19Z
+
+[Term]
+id: ID:0000552
+name: light reflection
+relationship: part_of ID:0000104 ! meat color
+created_by: caripark
+creation_date: 2008-11-11T03:33:19Z
+
+[Term]
+id: ID:0000553
+name: meat brightness
+relationship: part_of ID:0000104 ! meat color
+created_by: caripark
+creation_date: 2008-11-11T03:33:19Z
+
+[Term]
+id: ID:0000554
+name: bone/lean meat ratio in ham
+relationship: part_of ID:0000105 ! muscling
+created_by: caripark
+creation_date: 2008-11-11T03:57:04Z
+
+[Term]
+id: ID:0000555
+name: dressing A
+relationship: part_of ID:0000105 ! muscling
+created_by: caripark
+creation_date: 2008-11-11T03:57:04Z
+
+[Term]
+id: ID:0000556
+name: dressing B
+relationship: part_of ID:0000105 ! muscling
+created_by: caripark
+creation_date: 2008-11-11T03:57:04Z
+
+[Term]
+id: ID:0000557
+name: fat-free weight
+relationship: part_of ID:0000105 ! muscling
+created_by: caripark
+creation_date: 2008-11-11T03:57:04Z
+
+[Term]
+id: ID:0000558
+name: foreloin weight post-dissection
+relationship: part_of ID:0000105 ! muscling
+created_by: caripark
+creation_date: 2008-11-11T03:57:04Z
+
+[Term]
+id: ID:0000559
+name: foreloin weight pre-dissection
+relationship: part_of ID:0000105 ! muscling
+created_by: caripark
+creation_date: 2008-11-11T03:57:04Z
+
+[Term]
+id: ID:0000560
+name: ham external fat weight
+relationship: part_of ID:0000105 ! muscling
+created_by: caripark
+creation_date: 2008-11-11T03:57:04Z
+
+[Term]
+id: ID:0000561
+name: ham meat weight
+relationship: part_of ID:0000105 ! muscling
+created_by: caripark
+creation_date: 2008-11-11T03:57:04Z
+
+[Term]
+id: ID:0000562
+name: ham percent
+relationship: part_of ID:0000105 ! muscling
+created_by: caripark
+creation_date: 2008-11-11T03:57:04Z
+
+[Term]
+id: ID:0000563
+name: ham weight
+relationship: part_of ID:0000105 ! muscling
+created_by: caripark
+creation_date: 2008-11-11T03:57:04Z
+
+[Term]
+id: ID:0000564
+name: lean cuts
+relationship: part_of ID:0000105 ! muscling
+created_by: caripark
+creation_date: 2008-11-11T03:57:04Z
+
+[Term]
+id: ID:0000565
+name: lean mass (weight)
+relationship: part_of ID:0000105 ! muscling
+created_by: caripark
+creation_date: 2008-11-11T03:57:04Z
+
+[Term]
+id: ID:0000566
+name: lean meat + bone-in ham
+relationship: part_of ID:0000105 ! muscling
+created_by: caripark
+creation_date: 2008-11-11T03:57:04Z
+
+[Term]
+id: ID:0000567
+name: lean meat + bone-in ham + back
+relationship: part_of ID:0000105 ! muscling
+created_by: caripark
+creation_date: 2008-11-11T03:57:04Z
+
+[Term]
+id: ID:0000568
+name: lean percentage
+relationship: part_of ID:0000105 ! muscling
+created_by: caripark
+creation_date: 2008-11-11T03:57:04Z
+
+[Term]
+id: ID:0000569
+name: lean thickness between 3rd and 4th rib
+relationship: part_of ID:0000105 ! muscling
+created_by: caripark
+creation_date: 2008-11-11T03:57:04Z
+
+[Term]
+id: ID:0000570
+name: loin and belly cut
+relationship: part_of ID:0000105 ! muscling
+created_by: caripark
+creation_date: 2008-11-11T03:57:04Z
+
+[Term]
+id: ID:0000571
+name: loin and ham percentage
+relationship: part_of ID:0000105 ! muscling
+created_by: caripark
+creation_date: 2008-11-11T03:57:04Z
+
+[Term]
+id: ID:0000572
+name: loin and neck meat weight
+relationship: part_of ID:0000105 ! muscling
+created_by: caripark
+creation_date: 2008-11-11T03:57:04Z
+
+[Term]
+id: ID:0000573
+name: loin eye area
+relationship: part_of ID:0000105 ! muscling
+created_by: caripark
+creation_date: 2008-11-11T03:57:04Z
+
+[Term]
+id: ID:0000574
+name: loin muscle area
+relationship: part_of ID:0000105 ! muscling
+created_by: caripark
+creation_date: 2008-11-11T03:57:04Z
+
+[Term]
+id: ID:0000575
+name: loin muscle depth
+relationship: part_of ID:0000105 ! muscling
+created_by: caripark
+creation_date: 2008-11-11T03:57:04Z
+
+[Term]
+id: ID:0000576
+name: loin percent
+relationship: part_of ID:0000105 ! muscling
+created_by: caripark
+creation_date: 2008-11-11T03:57:04Z
+
+[Term]
+id: ID:0000578
+name: longissimus muscle length
+relationship: part_of ID:0000105 ! muscling
+created_by: caripark
+creation_date: 2008-11-11T03:57:04Z
+
+[Term]
+id: ID:0000579
+name: meat area on longissimus dorsi at 13th/14th rib
+relationship: part_of ID:0000105 ! muscling
+created_by: caripark
+creation_date: 2008-11-11T03:57:04Z
+
+[Term]
+id: ID:0000580
+name: muscle + diaphragm weight
+relationship: part_of ID:0000105 ! muscling
+created_by: caripark
+creation_date: 2008-11-11T03:57:04Z
+
+[Term]
+id: ID:0000581
+name: muscle weight
+relationship: part_of ID:0000105 ! muscling
+created_by: caripark
+creation_date: 2008-11-11T03:57:04Z
+
+[Term]
+id: ID:0000582
+name: shoulder meat weight
+relationship: part_of ID:0000105 ! muscling
+created_by: caripark
+creation_date: 2008-11-11T03:57:04Z
+
+[Term]
+id: ID:0000583
+name: loin muscle area at 4th-5th rib
+relationship: part_of ID:0000574 ! loin muscle area
+created_by: caripark
+creation_date: 2008-11-11T04:01:52Z
+
+[Term]
+id: ID:0000584
+name: loin muscle area at the middle
+relationship: part_of ID:0000574 ! loin muscle area
+created_by: caripark
+creation_date: 2008-11-11T04:01:52Z
+
+[Term]
+id: ID:0000585
+name: FOM loin depth
+relationship: part_of ID:0000575 ! loin muscle depth
+created_by: caripark
+creation_date: 2008-11-11T04:02:23Z
+
+[Term]
+id: ID:0000586
+name: loin depth at the last ribs
+relationship: part_of ID:0000575 ! loin muscle depth
+created_by: caripark
+creation_date: 2008-11-11T04:02:23Z
+
+[Term]
+id: ID:0000587
+name: smell intensity
+relationship: part_of ID:0000106 ! odor
+created_by: caripark
+creation_date: 2008-11-11T04:05:30Z
+
+[Term]
+id: ID:0000588
+name: smell intensity (fat)
+relationship: part_of ID:0000106 ! odor
+created_by: caripark
+creation_date: 2008-11-11T04:05:30Z
+
+[Term]
+id: ID:0000589
+name: sub-acid smell
+relationship: part_of ID:0000106 ! odor
+created_by: caripark
+creation_date: 2008-11-11T04:05:30Z
+
+[Term]
+id: ID:0000590
+name: subjective abnormal odor
+relationship: part_of ID:0000106 ! odor
+created_by: caripark
+creation_date: 2008-11-11T04:05:30Z
+
+[Term]
+id: ID:0000591
+name: subjective overall acceptibility score
+relationship: part_of ID:0000106 ! odor
+created_by: caripark
+creation_date: 2008-11-11T04:05:30Z
+
+[Term]
+id: ID:0000592
+name: subjective pork odor
+relationship: part_of ID:0000106 ! odor
+created_by: caripark
+creation_date: 2008-11-11T04:05:30Z
+
+[Term]
+id: ID:0000593
+name: pH 24 hr post-mortem (ham)
+relationship: part_of ID:0000107 ! pH
+created_by: caripark
+creation_date: 2008-11-11T04:09:18Z
+
+[Term]
+id: ID:0000594
+name: pH 24 hr post-mortem (loin)
+relationship: part_of ID:0000107 ! pH
+created_by: caripark
+creation_date: 2008-11-11T04:09:18Z
+
+[Term]
+id: ID:0000595
+name: pH 45 min post-mortem
+relationship: part_of ID:0000107 ! pH
+created_by: caripark
+creation_date: 2008-11-11T04:09:18Z
+
+[Term]
+id: ID:0000596
+name: pH biceps femoris
+relationship: part_of ID:0000107 ! pH
+created_by: caripark
+creation_date: 2008-11-11T04:09:18Z
+
+[Term]
+id: ID:0000597
+name: pH longissimus dorsi
+relationship: part_of ID:0000107 ! pH
+created_by: caripark
+creation_date: 2008-11-11T04:09:18Z
+
+[Term]
+id: ID:0000598
+name: pH semispinalis dorsi
+relationship: part_of ID:0000107 ! pH
+created_by: caripark
+creation_date: 2008-11-11T04:09:18Z
+
+[Term]
+id: ID:0000599
+name: pH semimembranosus muscle
+relationship: part_of ID:0000107 ! pH
+created_by: caripark
+creation_date: 2008-11-11T04:09:18Z
+
+[Term]
+id: ID:0000600
+name: rigor mortis
+relationship: part_of ID:0000108 ! stiffening
+created_by: caripark
+creation_date: 2008-11-11T04:11:37Z
+
+[Term]
+id: ID:0000601
+name: average instron (star probe) force
+relationship: part_of ID:0000109 ! texture
+created_by: caripark
+creation_date: 2008-11-11T04:15:56Z
+
+[Term]
+id: ID:0000602
+name: chewiness score
+relationship: part_of ID:0000109 ! texture
+created_by: caripark
+creation_date: 2008-11-11T04:15:56Z
+
+[Term]
+id: ID:0000603
+name: cooking loss
+relationship: part_of ID:0000109 ! texture
+created_by: caripark
+creation_date: 2008-11-11T04:15:56Z
+
+[Term]
+id: ID:0000604
+name: diameter of white fibers
+relationship: part_of ID:0000109 ! texture
+created_by: caripark
+creation_date: 2008-11-11T04:15:56Z
+
+[Term]
+id: ID:0000605
+name: drip loss
+relationship: part_of ID:0000109 ! texture
+created_by: caripark
+creation_date: 2008-11-11T04:15:56Z
+
+[Term]
+id: ID:0000606
+name: fiber type 1
+relationship: part_of ID:0000109 ! texture
+created_by: caripark
+creation_date: 2008-11-11T04:15:56Z
+
+[Term]
+id: ID:0000607
+name: fiber type 2 ratio
+relationship: part_of ID:0000109 ! texture
+created_by: caripark
+creation_date: 2008-11-11T04:15:56Z
+
+[Term]
+id: ID:0000608
+name: firmness
+relationship: part_of ID:0000109 ! texture
+created_by: caripark
+creation_date: 2008-11-11T04:15:56Z
+
+[Term]
+id: ID:0000609
+name: juiciness score
+relationship: part_of ID:0000109 ! texture
+created_by: caripark
+creation_date: 2008-11-11T04:15:56Z
+
+[Term]
+id: ID:0000610
+name: lactate/diameter of white fibers
+relationship: part_of ID:0000109 ! texture
+created_by: caripark
+creation_date: 2008-11-11T04:15:56Z
+
+[Term]
+id: ID:0000611
+name: moisture content
+relationship: part_of ID:0000109 ! texture
+created_by: caripark
+creation_date: 2008-11-11T04:15:56Z
+
+[Term]
+id: ID:0000612
+name: number of white fibers
+relationship: part_of ID:0000109 ! texture
+created_by: caripark
+creation_date: 2008-11-11T04:15:56Z
+
+[Term]
+id: ID:0000613
+name: percent cooking loss
+relationship: part_of ID:0000109 ! texture
+created_by: caripark
+creation_date: 2008-11-11T04:15:56Z
+
+[Term]
+id: ID:0000614
+name: percentage of white fibers
+relationship: part_of ID:0000109 ! texture
+created_by: caripark
+creation_date: 2008-11-11T04:15:56Z
+
+[Term]
+id: ID:0000615
+name: R-value
+relationship: part_of ID:0000109 ! texture
+created_by: caripark
+creation_date: 2008-11-11T04:15:56Z
+
+[Term]
+id: ID:0000616
+name: R-value/diameter of white fibers
+relationship: part_of ID:0000109 ! texture
+created_by: caripark
+creation_date: 2008-11-11T04:15:56Z
+
+[Term]
+id: ID:0000617
+name: shear force
+relationship: part_of ID:0000109 ! texture
+created_by: caripark
+creation_date: 2008-11-11T04:15:56Z
+
+[Term]
+id: ID:0000618
+name: tenderness score
+relationship: part_of ID:0000105 ! muscling
+relationship: part_of ID:0000109 ! texture
+created_by: caripark
+creation_date: 2008-11-11T04:15:56Z
+
+[Term]
+id: ID:0000619
+name: water holding capacity
+relationship: part_of ID:0000109 ! texture
+created_by: caripark
+creation_date: 2008-11-11T04:15:56Z
+
+[Term]
+id: ID:0000620
+name: feed conversion ratio
+relationship: part_of ID:0000023 ! feed conversion
+created_by: caripark
+creation_date: 2008-11-11T04:18:56Z
+
+[Term]
+id: ID:0000621
+name: feed conversion ratio (35-55 kg)
+relationship: part_of ID:0000023 ! feed conversion
+created_by: caripark
+creation_date: 2008-11-11T04:18:56Z
+
+[Term]
+id: ID:0000622
+name: feed conversion ratio (55-80 kg)
+relationship: part_of ID:0000023 ! feed conversion
+created_by: caripark
+creation_date: 2008-11-11T04:18:56Z
+
+[Term]
+id: ID:0000623
+name: average daily feed intake
+relationship: part_of ID:0000017 ! feed intake
+created_by: caripark
+creation_date: 2008-11-11T04:20:49Z
+
+[Term]
+id: ID:0000624
+name: feed intake (35-55 kg)
+relationship: part_of ID:0000017 ! feed intake
+created_by: caripark
+creation_date: 2008-11-11T04:20:49Z
+
+[Term]
+id: ID:0000625
+name: feed intake (55-80 kg)
+relationship: part_of ID:0000017 ! feed intake
+created_by: caripark
+creation_date: 2008-11-11T04:20:49Z
+
+[Term]
+id: ID:0000626
+name: food consumption
+relationship: part_of ID:0000017 ! feed intake
+created_by: caripark
+creation_date: 2008-11-11T04:20:49Z
+
+[Term]
+id: ID:0000627
+name: thyroid-stimulating hormone
+relationship: part_of ID:0000024 ! endocrine
+created_by: caripark
+creation_date: 2008-11-11T04:21:43Z
+
+[Term]
+id: ID:0000628
+name: embryo mortality
+relationship: part_of ID:0000025 ! fertility
+created_by: caripark
+creation_date: 2008-11-11T04:27:06Z
+
+[Term]
+id: ID:0000629
+name: fully formed pigs
+relationship: part_of ID:0000025 ! fertility
+created_by: caripark
+creation_date: 2008-11-11T04:27:06Z
+
+[Term]
+id: ID:0000630
+name: litter weaning weight
+relationship: part_of ID:0000025 ! fertility
+created_by: caripark
+creation_date: 2008-11-11T04:27:06Z
+
+[Term]
+id: ID:0000631
+name: mummified pigs
+relationship: part_of ID:0000025 ! fertility
+created_by: caripark
+creation_date: 2008-11-11T04:27:06Z
+
+[Term]
+id: ID:0000632
+name: percentage stillborn
+relationship: part_of ID:0000025 ! fertility
+created_by: caripark
+creation_date: 2008-11-11T04:27:06Z
+
+[Term]
+id: ID:0000633
+name: proportion of stillborn
+relationship: part_of ID:0000025 ! fertility
+created_by: caripark
+creation_date: 2008-11-11T04:27:06Z
+
+[Term]
+id: ID:0000634
+name: total number born
+relationship: part_of ID:0000025 ! fertility
+created_by: caripark
+creation_date: 2008-11-11T04:27:06Z
+
+[Term]
+id: ID:0000635
+name: total number born alive
+relationship: part_of ID:0000025 ! fertility
+created_by: caripark
+creation_date: 2008-11-11T04:27:06Z
+
+[Term]
+id: ID:0000636
+name: number of corpora lutea
+relationship: part_of ID:0000203 ! female measurements
+created_by: caripark
+creation_date: 2008-11-11T04:29:40Z
+
+[Term]
+id: ID:0000637
+name: functional nipples
+relationship: part_of ID:0000203 ! female measurements
+created_by: caripark
+creation_date: 2008-11-11T04:29:40Z
+
+[Term]
+id: ID:0000638
+name: uterine capacity
+relationship: part_of ID:0000203 ! female measurements
+created_by: caripark
+creation_date: 2008-11-11T04:29:40Z
+
+[Term]
+id: ID:0000639
+name: uterine horn length
+relationship: part_of ID:0000203 ! female measurements
+created_by: caripark
+creation_date: 2008-11-11T04:29:40Z
+
+[Term]
+id: ID:0000640
+name: uterine horn weight
+relationship: part_of ID:0000203 ! female measurements
+created_by: caripark
+creation_date: 2008-11-11T04:29:40Z
+
+[Term]
+id: ID:0000641
+name: weight of ovary
+relationship: part_of ID:0000203 ! female measurements
+created_by: caripark
+creation_date: 2008-11-11T04:29:40Z
+
+[Term]
+id: ID:0000642
+name: uterine length
+relationship: part_of ID:0000203 ! female measurements
+created_by: caripark
+creation_date: 2008-11-11T04:29:40Z
+
+[Term]
+id: ID:0000643
+name: daily sperm production
+relationship: part_of ID:0000204 ! male measurements
+created_by: caripark
+creation_date: 2008-11-11T04:30:44Z
+
+[Term]
+id: ID:0000644
+name: testis weight
+relationship: part_of ID:0000204 ! male measurements
+created_by: caripark
+creation_date: 2008-11-11T04:30:44Z
+
+[Term]
+id: ID:0000645
+name: adjusted birthing rate
+relationship: part_of ID:0000028 ! other reproductive
+created_by: caripark
+creation_date: 2008-11-11T04:35:38Z
+
+[Term]
+id: ID:0000646
+name: age at delivery
+relationship: part_of ID:0000028 ! other reproductive
+created_by: caripark
+creation_date: 2008-11-11T04:35:38Z
+
+[Term]
+id: ID:0000647
+name: age at breeding
+relationship: part_of ID:0000028 ! other reproductive
+created_by: caripark
+creation_date: 2008-11-11T04:35:38Z
+
+[Term]
+id: ID:0000648
+name: average breeding female inventory
+relationship: part_of ID:0000028 ! other reproductive
+created_by: caripark
+creation_date: 2008-11-11T04:35:38Z
+
+[Term]
+id: ID:0000649
+name: birth interval
+relationship: part_of ID:0000028 ! other reproductive
+created_by: caripark
+creation_date: 2008-11-11T04:35:38Z
+
+[Term]
+id: ID:0000650
+name: birth duration
+relationship: part_of ID:0000028 ! other reproductive
+created_by: caripark
+creation_date: 2008-11-11T04:35:38Z
+
+[Term]
+id: ID:0000651
+name: gestation length
+relationship: part_of ID:0000028 ! other reproductive
+created_by: caripark
+creation_date: 2008-11-11T04:35:38Z
+
+[Term]
+id: ID:0000652
+name: heterogeneity of birth intervals
+relationship: part_of ID:0000028 ! other reproductive
+created_by: caripark
+creation_date: 2008-11-11T04:35:38Z
+
+[Term]
+id: ID:0000653
+name: lactation length
+relationship: part_of ID:0000028 ! other reproductive
+created_by: caripark
+creation_date: 2008-11-11T04:35:38Z
+
+[Term]
+id: ID:0000654
+name: log transformation of percentage stillborn
+relationship: part_of ID:0000028 ! other reproductive
+created_by: caripark
+creation_date: 2008-11-11T04:35:38Z
+
+[Term]
+id: ID:0000655
+name: placental efficiency
+relationship: part_of ID:0000028 ! other reproductive
+created_by: caripark
+creation_date: 2008-11-11T04:35:38Z
+
+[Term]
+id: ID:0000656
+name: prenatal survival
+relationship: part_of ID:0000028 ! other reproductive
+created_by: caripark
+creation_date: 2008-11-11T04:35:38Z
+
+[Term]
+id: ID:0000657
+name: vigor score
+relationship: part_of ID:0000028 ! other reproductive
+created_by: caripark
+creation_date: 2008-11-11T04:35:38Z
+
+[Term]
+id: ID:0000658
+name: weight of laparoscopy
+relationship: part_of ID:0000028 ! other reproductive
+created_by: caripark
+creation_date: 2008-11-11T04:35:38Z
+
+[Typedef]
+id: part_of
+name: part_of
+is_transitive: true
+

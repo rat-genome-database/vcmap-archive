@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='ISO-8859-1'  ?>
+
+<!DOCTYPE toc
+  PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp TOC Version 2.0//EN"
+         "http://java.sun.com/products/javahelp/toc_2_0.dtd">
+<toc version="2.0">
+<tocitem text="VCMap Help Docs" target="home">
+
+   <tocitem text="Maps">
+     <tocitem text="Load a Map" target="Load" />
+     <tocitem text="Swap Backbone Maps" target="SwapBB" />
+     <tocitem text="Hide a Map" target="HideMaps" />
+     <tocitem text="Show a Map" target="ShowMap" />
+   </tocitem>
+
+   <tocitem text="Annotation">
+     <tocitem text="Load Annotation" target="LoadAnnot" />
+     <tocitem text="View Details" target="ViewDetails" />
+     <tocitem text="Hide Annotation" target="HideAnnotSelected" />
+     <tocitem text="Show Annotation" target="ShowAnnotsAll" />
+   </tocitem>
+
+   <tocitem text="Map Interaction" target="mapInteraction">
+     <tocitem text="Selecting a Map" target="selectMap" />
+     <tocitem text="Selecting Annotation" target="selectAnnotation" />
+     <tocitem text="Selecting a Segment" target="selectSegment" />
+     <tocitem text="Selecting an Interval" target="selectInterval" />
+     <tocitem text="Change Map Positions" target="changingPositions" />
+   </tocitem>
+   
+   <tocitem text="Search" target="Find" />
+
+   <tocitem text="Tutorial" target="tutorial"/>
+</tocitem>
+</toc>

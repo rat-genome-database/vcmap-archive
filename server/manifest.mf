@@ -1,0 +1,2 @@
+Main-Class: bioneos.vcmap.db.VCMapLoader
+Class-Path: lib/log4j-1.2.15.jar lib/mysql-connector-java-5.1.6-bin.jar lib/commons-net-2.0.jar lib/jakarta-oro-2.0.8.jar lib/json-2002.jar lib/javamail-1.4.4.jar

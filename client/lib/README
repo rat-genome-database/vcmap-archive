@@ -1,0 +1,41 @@
+README - VCMap libraries
+-------------------------------------------------
+
+Installation problems with third party jars
+-----
+When installing or upgrading new jars, there is a high potential for security
+policies to break the installation.  The primary reason for this is a new
+security policy put in place by Oracle (after the purchase of Sun in 2009),
+that required all third party libraries to contain the attribute:
+
+  Trusted-Library: true
+
+or else they would be loaded in a new ClassLoader instance (and thus the classes
+in this package would be unavailable to the other packages).  This is regardless
+of whether or not the package has been signed by the same certificate!!
+
+
+This causes an issue when upgrading packages or installing new ones, as they often
+do not contain this attribute.  For example, the JavaHelp package does not contain
+this attribute and probably never will as it is not under active development.  In
+order to work around this issue, you must unjar the files in this package, modify
+the manifest, repackage the files, and sign the new jar.  The entire process is as
+follows:
+
+  * jar xvf jh.jar
+  * (edit META-INF/MANIFEST.MF to add the missing attribute)
+  * jar cvfm jh.jar META-INF/MANIFEST.MF javax/ com/
+  * jarsigner -keystore <keystore> jh.jar <alias>
+
+Also, please keep in mind that the error message when this occurs is extremely
+useless.  No where is it mentioned that the jar was loaded in a different
+ClassLoader.  It simply will report a missing class file.
+
+More information about this issue can be found on Oracle's website:
+http://docs.oracle.com/javase/6/docs/technotes/guides/jweb/mixed_code.html
+
+
+Conclusion
+-----
+*** Whenever you have problems with a missing class file, first check the package
+*** for that file to ensure the Trusted-Library attribute exists!

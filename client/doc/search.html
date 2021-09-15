@@ -1,0 +1,117 @@
+<html>
+<head>
+        <title>How to Search</title>
+        <link rel="stylesheet" type="text/css" href="help.css">
+</head>
+<body>
+        <h1>Searching</h1>
+            <p>Searching for features is done with a loaded map(s) and on the VCMap database.  If you need to load a map, 
+               consult the <a href="load-map.html">Load a Map</a> page for help on doing this.
+        <hr/>
+        <h2>How to Search</h2>
+            <ol>
+                <li>Begin by selecting <em>&quot;Search -> Find...&quot;</em> from the menu bar or by 
+                    pressing <em>&quot;CTRL + F&quot;</em> on the keyboard.
+                    <p><img class="screenshot" src="images/search/search-find.png"></p></li>
+                <li>A <em>&quot;Find&quot;</em> dialog box will open up.  Now you have two options to search 
+                    by:
+                    <ul>
+                        <li>Search by Name</li>
+                        <li>Search by Loacation</li>
+                        <li>Advanced Search</li>
+                    </ul>
+                    Depending on which way you want to search, follow the appropriate instructions below.</li>
+            </ol>
+        <h2>VCMap Advanced Search</h2>
+            <ol>
+                <li>When the search dialog first appears your view should be what is shown below.
+                    <p><img class="screenshot" src="images/search/advanced.png"></p></li>
+                <li>Choose a type of filter using the left drop down menu. Depending on your selection a different 
+                     type of search method will be added on the right side.  This is indicated in selection <b>B</b> in the image below.</li>
+                <li>To add a search filter click the <em>&quot;+&quot;</em> button shown in selection <b>B</b> in the figure below.  This button
+                	may be disabled if there are empty search filters.</li>
+                <li>To remove a search filter click its <em>&quot;-&quot;</em> button on the left hand side.  This is shown in
+                    selection <b>A</b> in the figure below.</li>
+                <li>The <em>&quot;Match Any&quot;</em> and <em>&quot;Match All&quot;</em> radio buttons, shown in selection <b>C</b> below 
+                    allow you to either return results that match all of the search criteria, or to return results matching any of the 
+                    search criteria.</li>
+                <li>The database, all loaded maps, and thier hidden annotation will be searched.
+                    <p><img class="screenshot" src="images/search/advanced-filters.png"></p></li>
+                <li>The results of the search will be listed.  The order of the listing can be changed by clicking 
+                    on the column names (Name, Type, Start, Stop, Chromosome, Map, Loaded).</li>
+                <li>Results are marked in the <em>&quot;Loaded&quot;</em> column with <em>&quot;Yes&quot;</em>, <em>&quot;No&quot;</em>, or
+                	<em>&quot;Yes (Hidden)&quot;</em>.  This column indicates if results have been already loaded into VCMap. Results that
+                	have already been loaded are also bolded if they are visible and greyed out if they are hidden.<li>
+                <li>The number of results returned from the loaded maps and the database will both be under the search bar.  You can 
+                    click on the different results and the corresponding feature will be selected on the map.
+                    <p><img class="screenshot" src="images/search/advanced-results.png"></p></li>
+                <li>Double clicking on features from the database will bring up a dialog giving you the option to load the map associated
+                    with that result.  A checkbox on the dialog enables you to load the map associated with the result as a backbone map.
+                    Double clicking results that are hidden features on the map will bring up a dialog box allowing you to show that specific
+                    annotation.  An image of the dialog box is shown below.
+                    <p><img class="screenshot" src="images/search/load-result.png"></p></li>
+            </ol>
+            <div class="subheading">
+                 <h3>Notes:</h3>
+                     <ul>
+                         <li>&quot;<em>Feature Name</em>&quot; search terms are NOT case sensitive and they can be found at any point within the name.<br/>
+                             e.g. a search for &quot;abc&quot; will match the following:
+                             <ul>
+                                 <li>ABC</li>
+                                 <li>abc</li>
+                                 <li>123Abc</li>
+                                 <li>abc123</li>
+                                 <li>123abcxyz</li>
+                             </ul></li>
+                     </ul>
+                     <ul>
+                         <li>For the &quot;<em>Location Search</em>&quot; filter, only features that fall completely within the start/stop range on the specified
+                         	 chromosome will be found. The following example will explain what this means:
+                             <div id="locationEx">
+                                  <table id="locationTable">
+                                         <tr><th>Name</th><th>Start</th><th>Stop</th></tr>
+                                         <tr><td>A</td><td>5</td><td>15</td></tr>
+                                         <tr><td>B</td><td>17</td><td>25</td></tr>
+                                         <tr><td>C</td><td>13</td><td>19</td></tr>
+                                  </table>
+                                  <p id="locationP">A search is performed with the start and stop positions being 10 and 20 respectively.  
+                                     C will be returned because its start and stop positions are both between 10 and 20.  Features A 
+                                     and B will not be returned.  While A's stop and B's start positions do fall between the searched 
+                                     values, A's start and B's stop positions do not and therefore these features will not be included 
+                                     in the results of the search.</p></li>
+                             </div>
+                     </ul>
+                     <ul>
+                         <li>The &quot;<em>Location Search</em>&quot; filter supports the standard genomic coordinate notation used by UCSC.
+                             To search a whole chromosome simply use <b><i>chrXX</i></b>, <b><i>chrXX</i>:</b> or <b><i>chrXX</i>:1-</b>, where
+                             <i>chrXX</i> is the chromosome you wish to search. To search from a specified start location to the end of the chromosome
+                             type <b><i>chrXX</i>:<i>start</i></b> or <b><i>chrXX</i>:<i>start</i>-</b>, where <i>chrXX</i> is the chromosome you wish to search and 
+                             <i>start</i> is the starting location of the search.  Finally to search from a specific starting and stoping range type
+                             <b><i>chrXX</i>:<i>start</i>-<i>stop</i></b>, where <i>chrXX</i> is the chromosome you wish to search, <i>start</i> is the starting 
+                             location of the search, and <i>stop</i> is the ending location of the search.  An example search is shown below.
+                             
+                            <p><img class="screenshot" src="images/search/location-search.png"></p></li>
+
+                         <li>To limit memory usage a maximum of 225,000 results will be loaded from the database.</li>
+                         <li>The <em>&quot;Gene Name&quot;</em> and <em>&quot;Location&quot;</em> filters work the same
+                             as the individual <em>&quot;Name Search&quot;</em> and <em>&quot;Location Search&quot;</em> tabs.</li>
+                         <li>The add filter button will disable itself to prevent the addition of un-nessary addition of a
+                             search filter (i.e. there is already an empty search filter). The button will re-enable itself Once
+                             there are no empty filters.</li>
+                         <li>Generic searches may take longer due to the large number of search results being returned.  Sorting operations
+                             with large result sets may also take more time.</li>
+                     </ul>
+            </div>  
+        <hr/>
+        <h2>Additional Information</h2>
+            <ul>
+                <li>To view the details of a <em>&quot;loaded&quot;</em> feature the search dialog must first be closed by clicking 
+                    <em>&quot;Close&quot;</em> (search results will be cleared but the selected feature(s) will stay 
+                    selected).  Once the dialog is closed, you can now view the details.  Instructions as to how can be found 
+                    on the <a href="view-details.html">view details</a> page.</li>
+                <li>A non backbone map will contain only segments of the chromosome.  Only the loaded segments 
+                    will be returned as <em>&quot;loaded&quot;</em> results searched.</li>
+            </ul>
+</body>
+</html>
+

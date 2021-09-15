@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0+" codebase="http://bioneos.com/VCMap/lib" href="help.jnlp">
+  <information>
+    <title>JavaHelp Version 2.0 build 05</title>
+    <vendor>Sun Microsystems, Inc.</vendor>
+  </information>
+  <resources>
+    <jar href="jh-2.0_05.jar"/>
+  </resources>
+  <component-desc/>
+</jnlp> 

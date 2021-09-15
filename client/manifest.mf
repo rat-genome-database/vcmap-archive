@@ -1,0 +1,3 @@
+Main-Class: bioneos.vcmap.VCMap
+Trusted-Library: true
+Class-Path: lib/log4j-1.2.16.jar lib/bn-instance.jar lib/bn-error.jar lib/mysql-connector-java-5.1.6-bin.jar lib/jh-2.0_05.jar lib/sam-1.3.1.jar lib/sam-1.38.jar

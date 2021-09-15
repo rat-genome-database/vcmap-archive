@@ -1,0 +1,30 @@
+<html>
+<head>
+  <title>Comparative Maps</title>
+  <link rel="stylesheet" type="text/css" href="help.css" />
+</head>
+<body>
+  <h1>Comparative Maps</h1>
+  <h4>What is a comparative map?</h4>
+  <p>A comparative (or off-backbone) map is a map that is loaded after you
+    have already chosen a backbone map.  Because of this the chromosomes that
+    will be loaded are determined by the regions of syteny as loaded into our
+    database.  These regions of synteny will appear in the column for the
+    comparative map, color coded by chromosome, along with their start and stop
+    positions to the right of the chromosome segments.  Any annotation that 
+    exists inside of these regions (in whole or in part) will appear to the 
+    left of the segments.
+  </p>
+  <p>
+    These regions of synteny are determined by the "Net - Level 1" conservation
+    track at UCSC.
+  </p>
+  <p>You may notice that loading a comparative map takes longer than loading
+    a backbone map.  This is because for every syntenic region on the backbone
+    chromosome, we must load a new chromosome for the off-backbone map.  Due
+    to the imprecise nature of the genetics of recombination and evolution,
+    their is often a large number of small off-backbone segments that must be
+    loaded.
+  </p>
+</body>
+</html>

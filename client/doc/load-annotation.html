@@ -1,0 +1,79 @@
+<html>
+<head>
+        <title>Load Annotation</title>
+        <link rel="stylesheet" type="text/css" href="help.css">
+</head>
+
+<body>
+        <h1>Loading Annotation</h1>
+        <p>Annotation can only be loaded after at least one map has been loaded.  If you need to load a map,
+           you can follow the instructions on how to <a href="load-map.html">Load a Map</a>.</p>
+        <hr/>
+        <h2>How to Load Annotation</h2>
+        <ol>
+            <li>To load annotation select, <em>&quot;Annotation -> Load Annotation...&quot;</em> from the menu 
+                or use the keyboard shortcut <em>&quot;Ctrl + A&quot;</em>.
+                <p><img class="screenshot" src="images/load-annotation/annotation-loadAnnotation.png"></p></li>
+            <li>When the <em>&quot;Load Annotation&quot;</em> dialog box opens, select the type of annotation you
+                wish to load from the drop down menu pictured below.
+                <p><img class="screenshot" src="images/load-annotation/type-of-annotation.png"></p></li>
+            <li>After you have chosen which type of annotation you want to load, you need to choose which map(s) 
+                you would like to load annotation for.  By default VCMap will load the annotation for each map you 
+                currently have loaded (even if the map is hidden).  If you are going to load the annotation for all
+                of the maps, continue to step 5.<br/>
+                <b>Note: Not all types of annotation will be available for every map.  The maps listed are the maps for which 
+                the current type of annotation can be loaded for.</b></li>
+            <li>The loaded maps will initially all be selected.  To load annotation for only one map, click on the map.  The chosen 
+                map name will be highlighted.  To load annotation for multiple maps, the <em><b>Ctrl</b></em> key needs to 
+                be pressed.  While holding the <em><b>Ctrl</b></em> key, use the mouse to toggle (between selected and not 
+                selected) which maps annotation will be loaded for.  The maps will toggle by simply clicking on the name 
+                while the <em><b>Ctrl</b></em> key is pressed. A map is chosen when its name is highlighted.<br/>
+                <b>Note: Not all types of annotation will be available for every map.  The maps listed are the maps for which 
+                the current type of annotation can be loaded for.</b><br/>
+                <div class="image">
+                  <img src="images/load-annotation/select-maps.png">
+                </div>
+                <div class="image">
+                  <img src="images/load-annotation/select-maps2.png">
+                </div>
+                <div class="clear" /></li>
+            <li>If you are not loading QTL data then click the <em>&quot;Load&quot;</em> button to load the annotation you have chosen.  If 
+                you are loading QTL data, continue on to step 6.<br/>
+                <b>Note: Once the dialog box closes, it will take a few moments fot the annotation to load.</b></li>
+            <li>When loading QTL data, you have the option to apply ontology filters to the data.  The drop down menu lists 
+                all of the ontology filters.  Terms that are in black with a number next to them are filters that can be loaded 
+                for the maps selected in steps 3 and 4 above (the numbers indicate how many pieces of annotation are under the filter).  
+                Terms in gray are filters that are available on a different chromosome of the selected map(s).  (Available filters 
+                will always be listed at the top of the list.  Unavailable filters will be at the bottom)
+                <p><img class="screenshot" src="images/load-annotation/ontology-filter.png">
+                <img class="screenshot" src="images/load-annotation/ontology-filter2.png"></p></li>
+            <li>Chosen filters will be listed in a tree structure under the drop down menu.  The drop down menu will change 
+                update to reflect which filters have been selected.  It will contain subcategories of the previously chosen filters.<br/>
+                <b>Note: There will be a varying amount of subcategories depending on which filters are chosen.</b>
+                <p><img class="screenshot" src="images/load-annotation/ontology-tree.png"></p></li>
+        </ol>        
+        <hr/>
+        <h3>Additional QTL Information:</h3>
+        <ul>
+            <li>Filters can be removed from the selection by using the tree.  Clicking on the filter you wish to go back to 
+                will remove all filters that are subcategories of it.</li>
+            <li>You can load at any time.  Clicking <em>&quot;Load&quot;</em> will load all data that is a subcategory of the 
+                last chosen filter.  You do not need to choose subcategories until there are no more to choose.</li>
+            <li>Loading all available QTL data is done when <em>&quot;All Data&quot;</em> is the only item in the tree.</li>
+            <li>After QTL has been loaded and is visible on the map, you can check which filters have been loaded on a 
+                particular map by clicking on the <em>&quot;QTL&quot;</em> label above the column.  
+                <p><img class="screenshot" src="images/load-annotation/qtl-label.png">
+                   <img class="screenshot" src="images/load-annotation/qtl-listing.png"</p>
+                <b>Note: Even if no QTL exists on a map but was chosen to be loaded for it, it will be in the list.  In the 
+                   above picture, a Bos Tauraus map is also loaded.  The &quot;production&quot; filter was chosen to be 
+                   loaded for both maps.  This filter only exists on Bos Taurus but since it was chosen to be loaded for the 
+                   Homo Sapiens map also, it appears in the listing.</b></li>
+        </ul>
+        <hr/>
+        <h2>See Also</h2>
+            <ul>
+                <li><a href="load-map.html">Load a Map</a></li>
+                <li><a href="download.html">Download Annotation Information</a></li>
+            </ul>
+</body>
+</html>

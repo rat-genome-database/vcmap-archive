@@ -1,0 +1,76 @@
+<html>
+<head>
+        <title>Showing Hidden Data</title>
+        <link rel="stylesheet" type="text/css" href="help.css">
+</head>
+<body>
+        <h1>Showing Hidden Data</h1>
+        <p>This page is for showing hidden data.  If you would like to hide data, visit the 
+           <a href="hiding.html">hiding data</a> page.</p>
+        <hr/>
+        <a name="showMap" />
+        <h2>Showing a Map</h2>
+            <p>There are 3 ways to show hidden maps:</p>
+            <div class="subheading">
+                 <h3>Double Clicking</h3>
+                     <p>When a map is hidden, it will be replaced by a vertical, gray bar.  Double click 
+                        anywhere on this bar and the map will be shown where the gray bar was.</p>
+                 <h3>Showing a Single Hidden Map</h3>
+                     <p>This method is used when you want to show only one hidden map.</p>
+                     <ol>
+                         <li>Select the hidden map you want to show.  This is done by single clicking 
+                             on the gray bar.  You will know you have selected the map by looking at the 
+                             selection bar.  It will display information about the map when it has been 
+                             selected.</li>
+                         <li>Now that you have selected a map, choose <em>&quot;Map -> Show Selected&quot;</em>
+                             from the menu.
+                             <p><img class="screenshot" src="images/showing/map-showSelected.png"></p></li>
+                         <li>The map will be shown where the gray bar was.
+                     </ol>
+                 <h3>Showing all Hidden Maps</h3>
+                     <p>When you have multiple hidden maps and you would like to show them all, use this method.</p>
+                     <ol>
+                         <li>Choose <em>&quot;Map -> Show All&quot;</em> from the menu.
+                             <p><img class="screenshot" src="images/showing/map-showAll.png"></p></li>
+                         <li>Every map that was hidden will now be shown.</li>
+                     </ol>
+                 <h3>Notes:</h3>
+                     <ul>
+                         <li>Showing a hidden map will show all of the annotation that was loaded for it including 
+                             annotation that was hidden when the map was hidden.</li>
+            </div>
+        <a name="showAnnotation" />
+        <hr/>
+        <h2>Showing Annotation</h2>
+            <p>The are 3 ways to show annotation:</p>
+            <div class="subheading">
+                 <h3>Show All Hidden Annotation</h3>
+                     <p>Select <em>&quot;Annotation -> Show -> All&quot;</em> from the menu.  This will show every 
+                        annotation that has been hidden regardless of what type it is and what map it is on.</p>
+                     <p><img class="screehshot" src="images/showing/annotation-show-all.png"></p>
+                 <h3>Show All in Selected Interval</h3>
+                     <ol>
+                         <li>Select an interval on the map.  This is done by clicking and draging on a segment.  The 
+                             interval selected will become shaded in green.  If there are multiple maps visible, the 
+                             corresponding interval(s) on them will also be selected.
+                             <p><img class="screenshot" src="images/showing/selected-interval.png"></p></li>
+                         <li>Next you need to choose <em>&quot;Annotation -> Show -> All in Selected Intervals&quot;</em> 
+                             from the menu.
+                             <p><img class="screenshot" src="images/showing/annotation-show-interval.png"></p></li>
+                         <li>Any annotation that crosses into the selected interval(s) and is currently hidden will be shown.</li>
+                     </ol>
+                 <h3>Show All of the same Type</h3>
+                     <p>Choose <em>&quot;Annotation -> Show -> All of Type... -> -----&quot;</em> from the menu.  Under 
+                        <em>&quot;All of Type...&quot;</em> will be a listing of annotation types that have been loaded.  
+                        Select on from the list to have that type shown on all maps.</p>
+                     <p><img class="screenshot" src="images/showing/annotation-show-type.png"></p>
+
+            </div>
+        <hr/>
+        <h2>See Also</h2>
+            <ul>
+                <li><a href="hiding.html">Hide Data</a></li>
+            </ul>
+
+</body>        
+</html>

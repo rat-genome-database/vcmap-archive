@@ -1,0 +1,78 @@
+<html>
+<head>
+        <title>Load a Map</title>
+        <link rel="stylesheet" type="text/css" href="help.css">
+</head>
+
+<body>
+        <h1>Loading a Map</h1>
+        <p>There are two types of maps that can be loaded: <a href="#backboneMap">Backbone</a> and 
+           <a href="#comparativeMap">off-backbone (comparative)</a></p>
+        <hr/>
+
+        <a name="backboneMap" />
+        <h2>How to Load a Backbone Map</h2>
+        <p>If you have just started VCMap you will need to load a backbone map before you can do anything else.  You may also want 
+           to load a new backbone map if you want to view data from a different perspective.</p>
+        <ol>
+            <li>If you just started VCMap, the <em>&quot;Load a Map&quot;</em> dialog box will appear automatically.  Skip to step 3.</li>
+            <li>Select <em>&quot;Map -> Load...&quot;</em> or use the keyboard shortcut <em>&quot;CTRL + L&quot;</em>.
+                <p><img class="screenshot" src="images/load-map/map-load.png"></p></li>
+            <li>The <em>&quot;Load a Map&quot;</em> dialog box will contain 3 drop down menus:
+                <em>&quot;Choose a Species&quot;, &quot;Choose a Map&quot;</em>, and <em>&quot;Choose a Map Release&quot;</em>.
+                There is also a check box labeled <em>&quot;Use this map as the Backbone&quot;</em>.  If you have not loaded
+                any maps yet, the box must be checked.  Begin by choosing a species from the <em>&quot;Choose a Species&quot;</em> 
+                menu.<br/>
+                <p><img class="screenshot" src="images/load-map/choose-a-species.png"></p>
+                Next choose the type of map from the <em>&quot;Choose a Type of Map&quot;</em> menu.
+                <p><img class="screenshot" src="images/load-map/choose-a-type.png"></p>
+                Finally choose which map from the <em>&quot;Choose a Map Release&quot;</em> menu.<br/>
+                <b>Note: If there is only one choice it will be made automatically.</b>
+                <p><img class="screenshot" src="images/load-map/choose-a-map.png"></p></li>
+            <li>Next you need to make sure that the <em>&quot;Use this map as the Backbone&quot;</em> box is checked.  If you haven't 
+                loaded any maps yet this box is checked automatically.</li>
+            <li>Now you need to choose a chromosome from the <em>&quot;Chromosome&quot;</em> menu.  This menu will only be 
+                available if the <em>&quot;Use this map as the Backbone&quot;</em> is checked so double check that it is.
+                <p><img class="screenshot" src="images/load-map/backbone-load.png"></p></li>
+            <li>Finally press the <em>&quot;Load&quot;</em> button.  If you are loading your first map a progress bar will appear 
+                and the map will load.  If you are loading a new backbone map, a box confirming that you want to load a new backbone 
+                map will appear.  Press <em>&quot;Continue&quot;</em> to load your map.</li>
+        </ol>
+        <hr/>
+
+        <a name="comparativeMap" />
+        <h2>How to load an off-backbone (comparative) map</h2>
+        <ol>
+            <li>Select <em>&quot;Map -> Load...&quot;</em> or use the keyboard shortcut <em>&quot;Ctrl + L&quot;</em>.
+                <p><img class="screenshot" src="images/load-map/map-load.png"></p></li>
+            <li>The <em>&quot;Load a Map&quot;</em> dialog box will contain 3 drop down menus:
+                <em>&quot;Choose a Species&quot;, &quot;Choose a Map&quot;</em>, and <em>&quot;Choose a Map Release&quot;</em>.
+                There is also a check box labeled <em>&quot;Use this map as the Backbone&quot;</em>.  Begin by choosing 
+                a species from the <em>&quot;Choose a Species&quot;</em> menu.<br/>
+                <p><img class="screenshot" src="images/load-map/choose-a-species.png"></p>
+                Next choose the type of map from the <em>&quot;Choose a Type of Map&quot;</em> menu.
+                <p><img class="screenshot" src="images/load-map/choose-a-type.png"></p>
+                Finally choose which map from the <em>&quot;Choose a Map Release&quot;</em> menu.<br/>
+                <b>Note: If there is only one choice it will be made automatically.</b>
+                <p><img class="screenshot" src="images/load-map/choose-a-map.png"></p></li>
+            <li>Finally make sure the <em>&quot;Use this map as the Backbone&quot;</em> box is NOT checked and press the 
+                <em>&quot;Load&quot;</em> button to load your map.</li>
+        </ol>
+
+        <hr/>
+        <h2>Additional Information</h2>
+        <ul>
+            <li>After opening up VCMap you must first load a backbone map.  Additional maps can be loaded once the backbone is loaded.</li>
+            <li>Upon clicking <em>&quot;Load&quot;</em> a load bar will appear while the map loads.  A map takes a few moments to load.</li>
+            <li>When loading a new backbone map (other than the first time) all previously loaded data will be cleared.  A second dialog 
+                box will appear confirming that this is what you want to do.</li>
+        </ul>
+        <hr/>
+        <h2>See Also</h2>
+        <ul>
+            <li><a href="window.html">Window View</a></li>
+            <li><a href="load-annotation.html">Load Annotation</a></li>
+            <li><a href="swap-backbone.html">Swap Backbone Maps</a></li>
+        </ul>
+</body>
+</html>

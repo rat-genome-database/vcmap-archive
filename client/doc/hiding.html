@@ -1,0 +1,88 @@
+<html>
+<head>
+        <title>Hiding Data</title>
+        <link rel="stylesheet" type="text/css" href="help.css">
+</head>
+<body>
+        <h1>Hiding Data</h1>
+            <p>This page tells how to hide data.  If you have hidden data that you would like to show again, visit 
+               the <a href="showing.html">showing hidden data</a> page.</p>
+        <hr/>
+        <a name="hideMap" />
+        <h2>Hiding a Map</h2>
+            <p>Hiding a map will make it temporarily hidden.  All of the loaded data (annotation, segments, etc.) will hide 
+               along with the map.  It will be replaced by a vertical gray line.</p>
+            <ol>
+                <li>Begin by selecting a map.  If you need help doing this, visit the 
+                    <a href"making-selections.html">making a selection</a> page and find the select a map section.
+                    <p><img class="screenshot" src="images/hiding/map-label.png"></p></li>
+                <li>Select <em>&quot;Map -> Hide Selected&quot;</em> from the menu bar.
+                    <p><img class="screenshot" src="images/hiding/map-hide-selected.png"></p></li>
+                <li>The selected map should now be hidden.  Your window should look like the picture below.<br/>
+                    <b>Note: The gray bar will be in the same location as the map was.</b>
+                    <p><img class="screenshot" src="images/hiding/map-hidden.png"></p></li>
+            </ol>
+            <div class="subheading">
+                 <h3>Notes:</h3>
+                     <ul>
+                         <li>You can view which map is represented by the gray line by placing your cursor on the line
+                             <p><img class="screenshot" src="images/hiding/cursor-tooltip.png"></p></li>
+                     </ul>
+            </div>
+        <a name="hideAnnotation" />
+        <h2>Hiding Annotation</h2>
+            <p>Hiding annotation will hide both the label and the bar indicating its position.</p>
+            <div class="subheading">
+                 <h3>Hide All Selected</h3>
+                     <ol>
+                         <li>Select annotation.  You can reference the <a href="making-selections.html">making selections</a> 
+                             page if you need help on doing this.</li>
+                         <li>After you have selected annotation, choose <em>&quot;Annotation -> Hide -> All Selected&quot;</em>
+                             from the menu bar.
+                             <p><img class="screenshot" src="images/hiding/annotation-hide-selected.png"></p></li>
+                         <li>The selected annotation should now be hidden.  If all of the annotation on a map of a particular 
+                             type is hidden as a result, the column label will also hide.</li>
+                     </ol>
+            </div>
+            <div class="subheading">
+                 <h3>Hide All in Selected Intervals</h3>
+                     <ol>
+                         <li>First you need to select an interval.  This is done by clicking and dragging on a segment.  The 
+                             selected interval will become shaded in green.  If additional maps are visible, the corresponding 
+                             intervals on those maps will also be selected.<br/>
+                             <b>Note: Connecting lines will only be drawn to maps adjacent to the map on which the interval 
+                                was drawn.</b></li>
+                         <li>Choose <em>&quot;Annotation -> Hide -> All in Selected Intervals&quot;</em> from the menu bar.
+                             <p><img class="screenshot" src="images/hiding/annotation-hide-intervals.png"></p></li>
+                         <li>All annotation regardless of type that was in the selected interval should now be hidden.</li>
+                     </ol>
+            </div>
+            <div class="subheading">
+                 <h3>Hide All of Type...</h3>
+                     <ol>
+                         <li>Choose <em>&quot;Annotation -> Hide -> All of Type... -> ---------&quot;</em> from the menu.  Under 
+                             <em>&quot;All of Type...&quot;</em> will be a listing of each type of annotation that is currently 
+                             loaded on any map.
+                             <p><img class="screenshot" src="images/hiding/annotation-hide-type.png"></p></li>
+                         <li>Select the type of annotation you want to hide.</li>
+                         <li>All annotation of the selected type will be hidden.  This includes every map that the annotation 
+                             is loaded for.</li>
+                     </ol>
+            </div>
+        <hr/>
+        <h2>Additional Information</h2>
+            <ul>
+                <li>There will be no warning message when you choose to hide data.  It will be done as soon as the option is 
+                    chosen.</li>
+                <li>There is not any visible indication that annotation has been hidden.</li>
+                <li>When an entire column of annotation is hidden, it will collapse and the label at the top will hide also.</li>
+        <hr/>
+        <h2>See Also</h2>
+            <ul>
+                <li><a href="showing.html">Show Data</a></li>
+                <li><a href="making-selections.html">Making Selections</a></li>
+                <li><a href="changing-positions.html">Change Map Positions</a></li>
+            </ul>
+
+</body>
+</html>

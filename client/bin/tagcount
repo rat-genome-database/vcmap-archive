@@ -1,0 +1,2 @@
+#! /bin/bash
+grep -c -R --include=*java $1 $2 | sed s/.*:// | awk '{n += $0}; END {print n}'

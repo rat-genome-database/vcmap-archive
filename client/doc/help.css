@@ -1,0 +1,85 @@
+body
+{
+  font-family: "Arial";
+  font-size: 100%;
+}
+
+.image
+{
+  float: left;
+  margin: 10px 10px 0px;
+}
+   
+.clear
+{
+  clear: both;
+}
+
+#helpLogo, #helpDoc, #byBio
+{
+  margin-top: 10px;
+  text-align: center;
+}
+
+li
+{
+  padding-bottom: 10px;
+}
+
+h1
+{
+  text-align: center;
+}
+
+.subheading
+{
+  padding-left: 20px;
+}
+
+#toc
+{
+  list-style-type: none;
+}
+
+.tocli
+{
+  padding-bottom: 0px;
+}
+
+#locationEx
+{
+  max-width: 800px;
+}
+
+#locationTable
+{
+  float: left;
+  text-align: center;
+  border-width: thin;
+  border-style: solid;
+  border-color: black;
+  margin-right: 5px;
+}
+
+#locationP
+{
+  font-size: 90%;
+  text-align: justify;
+}
+
+.window
+{
+  float: right;
+}
+
+.windowList
+{
+max-width: 200px;
+clear: none;
+}
+
+#logo
+{
+  text-align: center;
+}
+

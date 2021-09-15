@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+<!DOCTYPE map
+  PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp Map Version 1.0//EN"
+         "http://java.sun.com/products/javahelp/map_1_0.dtd">
+
+<map version="1.0">
+	<mapID target="toplevelfolder" url="images/icons/help.png" />
+	<mapID target="backImage" url="images/icons/arrow_left.png" />
+	<mapID target="forwardImage" url="images/icons/arrow_right.png" />
+	<mapID target="homeImage" url="images/icons/house.png" />
+	<mapID target="printImage" url="images/icons/printer.png" />
+	<mapID target="tocImage" url="images/icons/folder_table.png" />
+	<mapID target="searchImage" url="images/icons/magnifier.png" />
+	<mapID target="top" url="help-index.html" />
+	<mapID target="home" url="help-index.html" />
+
+        <!-- The following mappings are all for binding action commands to tutorial page updates -->
+        <!-- File menu -->
+	<mapID target="newWindow" url="load-map.html" />
+	<mapID target="Download" url="download.html" />
+        
+        <!-- Map menu -->
+        <mapID target="Load" url="load-map.html" />
+	<mapID target="SwapBB" url="swap-backbone.html" />
+        <mapID target="HideMaps" url="hiding.html#hideMap" />
+        <mapID target="ShowMap" url="showing.html#showMap" />
+        <mapID target="ShowMaps" url="showing.html#showMap" />
+
+        <!-- Annotation menu -->
+        <mapID target="LoadAnnot" url="load-annotation.html" />
+        <mapID target="ViewDetails" url="view-details.html#annotationDetails" />
+        <mapID target="HideAnnotSelected" url="hiding.html#hideAnnotation" />
+        <mapID target="HideAnnotsInterval" url="hiding.html#hideAnnotation" />
+        <mapID target="hideType" url="hiding.html#hideAnnotation" />
+        <mapID target="ShowAnnotsAll" url="showing.html#showAnnotation" />
+        <mapID target="ShowAnnotsInterval" url="showing.html#showAnnotation" />
+        <mapID target="showType" url="showing.html#showAnnotation" />
+
+        <!-- Search menu -->
+        <mapID target="Find" url="search.html" />
+
+        <!-- Save Image menu -->
+        <mapID target="Find" url="save-image.html" />
+
+        <!-- Load GFF File menu -->
+        <mapID target="CustomAnnotation" url="custom-annotation.html" />
+
+        <!-- Miscellaneous mappings -->
+        <mapID target="mapInteraction" url="map-interaction.html" />
+
+        <!-- Other -->
+        <!-- Tutorial related mappings -->
+	<mapID target="tutorial" url="tutorial.html" />
+	<mapID target="tutorial.home" url="tutorial.html" />
+	<mapID target="tutorial.home.Tutorial_Home" url="tutorial.html" />
+	<mapID target="tutorial.home.Loading_a_Backbone_Map" url="load-map.html" />
+
+        <!-- After loading BB map -->
+	<mapID target="tutorial.backboneLoaded" url="backbone-load.html" />
+	<mapID target="tutorial.backboneLoaded.What_Next?" url="backbone-load.html" />
+	<mapID target="tutorial.backboneLoaded.Backbone_Maps" url="backbone-map.html" />
+	<mapID target="tutorial.backboneLoaded.Loading_an_Off-Backbone_Map" url="load-map.html#comparativeMap" />
+	<mapID target="tutorial.backboneLoaded.Loading_Annotation" url="load-annotation.html" />
+	<mapID target="tutorial.backboneLoaded.Selecting_Annotation" url="making-selections.html#selectAnnotation" />
+
+        <!-- After loading off-BB map -->
+	<mapID target="tutorial.mapLoaded" url="comparative-load.html" />
+	<mapID target="tutorial.mapLoaded.What_Next?" url="comparative-load.html" />
+	<mapID target="tutorial.mapLoaded.Comparative_Maps" url="comparative-map.html" />
+	<mapID target="tutorial.mapLoaded.Loading_Annotation" url="load-annotation.html" />
+	<mapID target="tutorial.mapLoaded.Selecting_Annotation" url="making-selections.html#selectAnnotation" />
+	<mapID target="tutorial.mapLoaded.Downloading_Annotation" url="download.html" />
+
+        <!-- After opening a new window -->
+	<mapID target="tutorial.newWindow" url="new-window.html" />
+	<mapID target="tutorial.newWindow.What_Next?" url="new-window.html" />
+	<mapID target="tutorial.newWindow.Loading_a_Map" url="load-map.html" />
+	<mapID target="tutorial.newWindow.Loading_Annotation" url="load-annotation.html" />
+	<mapID target="tutorial.newWindow.Selecting_Annotation" url="making-selections.html#selectAnnotation" />
+
+	<mapID target="tutorial.Download" url="download.html" />
+	<mapID target="tutorial.Download.Downloading_Annotation" url="download.html" />
+
+        <mapID target="tutorial.Load" url="load-map.html" />
+        <mapID target="tutorial.Load.Loading_Maps" url="load-map.html" />
+
+	<mapID target="tutorial.SwapBB" url="swap-backbone.html" />
+	<mapID target="tutorial.SwapBB.Swapping_Backbone_Maps" url="swap-backbone.html" />
+
+        <mapID target="tutorial.HideMaps" url="hiding.html#hideMap" />
+        <mapID target="tutorial.HideMaps.Hiding_Maps" url="hiding.html#hideMap" />
+        <mapID target="tutorial.HideMaps.Showing_Maps" url="showing.html#showMap" />
+
+        <mapID target="tutorial.ShowMap" url="showing.html#showMap" />
+        <mapID target="tutorial.ShowMap.Hiding_Maps" url="hiding.html#hideMap" />
+        <mapID target="tutorial.ShowMap.Showing_Maps" url="showing.html#showMap" />
+        <mapID target="tutorial.ShowMaps" url="showing.html#showMap" />
+        <mapID target="tutorial.ShowMaps.Hiding_Maps" url="hiding.html#hideMap" />
+        <mapID target="tutorial.ShowMaps.Showing_Maps" url="showing.html#showMap" />
+
+        <mapID target="tutorial.LoadAnnot" url="load-annotation.html" />
+        <mapID target="tutorial.LoadAnnot.Loading_Annotation" url="load-annotation.html" />
+
+        <mapID target="tutorial.ViewDetails" url="view-details.html#annotationDetails" />
+        <mapID target="tutorial.ViewDetails.Viewing_Annotation_Details" url="view-details.html#annotationDetails" />
+
+        <mapID target="tutorial.HideAnnotSelected" url="hiding.html#hideAnnotation" />
+        <mapID target="tutorial.HideAnnotSelected.Hiding_Annotation" url="hiding.html#hideAnnotation" />
+        <mapID target="tutorial.HideAnnotSelected.Showing_Annotation" url="showing.html#showAnnotation" />
+        <mapID target="tutorial.HideAnnotsInterval" url="hiding.html#hideAnnotation" />
+        <mapID target="tutorial.HideAnnotsInterval.Hiding_Annotation" url="hiding.html#hideAnnotation" />
+        <mapID target="tutorial.HideAnnotsInterval.Showing_Annotation" url="showing.html#showAnnotation" />
+        <mapID target="tutorial.hideType" url="hiding.html#hideAnnotation" />
+        <mapID target="tutorial.hideType.Hiding_Annotation" url="hiding.html#hideAnnotation" />
+        <mapID target="tutorial.hideType.Showing_Annotation" url="showing.html#showAnnotation" />
+
+        <mapID target="tutorial.ShowAnnotsAll" url="showing.html#showAnnotation" />
+        <mapID target="tutorial.ShowAnnotsAll.Showing_Annotation" url="showing.html#showAnnotation" />
+        <mapID target="tutorial.ShowAnnotsAll.Hiding_Annotation" url="hiding.html#hideAnnotation" />
+        <mapID target="tutorial.ShowAnnotsInterval" url="showing.html#showAnnotation" />
+        <mapID target="tutorial.ShowAnnotsInterval.Showing_Annotation" url="showing.html#showAnnotation" />
+        <mapID target="tutorial.ShowAnnotsInterval.Hiding_Annotation" url="hiding.html#hideAnnotation" />
+        <mapID target="tutorial.showType" url="showing.html#showAnnotation" />
+        <mapID target="tutorial.showType.Showing_Annotation" url="showing.html#showAnnotation" />
+        <mapID target="tutorial.showType.Hiding_Annotation" url="hiding.html#hideAnnotation" />
+
+        <mapID target="tutorial.CustomAnnotation" url="custom-annotation.html" />
+        <mapID target="tutorial.CustomAnnotation.Loading_Custom_Annotation" url="custom-annotation.html" />
+
+        <mapID target="tutorial.Find" url="search.html" />
+        <mapID target="tutorial.Find.Searching_for_Features" url="search.html" />
+        <mapID target="tutorial.searching" url="search.html" />
+        <mapID target="tutorial.searching.Searching_for_Features" url="search.html" />
+
+        <mapID target="tutorial.Save" url="save-image.html" />
+        <mapID target="tutorial.Save.Export_an_Image" url="save-image.html" />
+
+        <mapID target="tutorial.selectAnnotation" url="making-selections.html#selectAnnotation" />
+        <mapID target="tutorial.selectAnnotation.Selecting_Annotation" url="making-selections.html#selectAnnotation" />
+
+        <mapID target="tutorial.selectSegment" url="making-selections.html#selectSegment" />
+        <mapID target="tutorial.selectSegment.Selecting_Segments" url="making-selections.html#selectSegment" />
+        <mapID target="tutorial.selectSegment.Selecting_Intervals" url="making-selections.html#selectInterval" />
+
+        <mapID target="tutorial.selectInterval" url="making-selections.html#selectInterval" />
+        <mapID target="tutorial.selectInterval.Selecting_Intervals" url="making-selections.html#selectInterval" />
+        <mapID target="tutorial.selectInterval.Selecting_Segments" url="making-selections.html#selectSegment" />
+
+        <mapID target="tutorial.selectMap" url="making-selections.html#selectMap" />
+        <mapID target="tutorial.selectMap.Selecting_Maps" url="making-selections.html#selectMap" />
+
+        <mapID target="tutorial.changingPositions" url="changing-positions.html" />
+        <mapID target="tutorial.changingPositions.Changing_Map_Positions" url="changing-positions.html" />
+</tocitem>
+</toc>
+</map>

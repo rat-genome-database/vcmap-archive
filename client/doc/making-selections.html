@@ -1,0 +1,83 @@
+<html>
+<head>
+        <title>Make a Selection</title>
+        <link rel="stylesheet" type="text/css" href="help.css">
+</head>
+<body>
+        <h1>Make a Selection</h1>
+        <p>Almost everything that you see in the VCMap window is able to be selected.  Selections will indicated 
+           graphically in different ways depending on what has been selected.  There is also a selection bar at the 
+           top of the screen that describes what the current selection is.</p>
+        <hr/>
+        <a name="selectMap" />
+        <h2>Selecting a Map</h2>
+            <p>To select an entire map, click on the map's label located directly above the map.</p>
+            <p><img class="screenshot" src="images/making-selections/map-selected.png"></p>
+        <a name="selectSegment" />
+        <h2>Selecting a Segment</h2>
+            <p>To select a segment, click on the segment.  The segment's border will thicken to indicate 
+               that it has been selected.  By default connecting lines will appear indicating where the features 
+               of the selected segment lie on the adjacent maps.  The preferences menu contains options to
+               show connections between non-adjacent maps also or to turn off the connecting lines completely.
+               These lines will be gray in color.</p>
+            <p><img class="screenshot" src="images/making-selections/segment-before.png">
+               <img class="screenshot" src="images/making-selections/segment-after.png"></p>
+            <p class="indent"><b>Note: Number of features counts only those features on the segment that are currently loaded.</b></br>
+               <img src="images/making-selections/segment-selected.png"</p>
+        <a name="selectAnnotation" />
+        <h2>Selecting Annotation</h2>
+            <p>Selecting annotation is done by clicking on the name of the annotation.  If an annotation is 
+               part of a feature grouping, it can be selected by first clicking the group name and then selecting 
+               the specific annotation.  When annotation is selected the label will turn blue, a corresponding area on 
+               the chromosome will be shaded green, and connecting lines will be drawn at both the start and stop 
+               positions if the annotation also is on an adjacent map.  Connecting lines can be altered with the 
+               same preferences as for segments.</p>
+            <p><img class="screenshot" src="images/making-selections/single-annotation.png">
+               <img class="screenshot" src="images/making-selections/annotation-grouping.png">
+               <img class="screenshot" src="images/making-selections/group-listing.png"></p>
+            <p>Annotation can also be selected by clicking and dragging to highlight all the annotation of interest.</p>
+            <p><img class="screenshot" src="images/making-selections/drag-annotation.png"></p>
+            <div class="subheading">
+                 <h3>Selection Bar Updates</h3>
+                     <p>When only one annotation is selected the selection bar updates like it would for a segment or 
+                        a map.</br>
+                        <img class="screenshot" src="images/making-selections/annotation-selected.png"></p>
+                     <p>When multiple annotation has been selected, the selection bar indicates how many pieces have 
+                        been selected.  If a single annotation lies on multiple visible maps and is selected, it 
+                        will be selected on all maps.</br>
+                        (e.g. Annotation X is located on maps Y and Z and is selected from map Y.  X will also be 
+                        selected from map Z for a total of 2 selected elements.)  To view the annotation information 
+                        of the selection, click on the label pictured below.</br>
+                        <img class="screenshot" src="images/making-selections/multiple-annotation-selected.png">
+                        <img class="screenshot" src="images/making-selections/selection-listing.png"></p>
+            </div>
+            <div class="subheading">
+                 <h3>Viewing Details</h3>
+                     <p>To view details about a selected annotation visit the <a href="view-details.html">View Details</a> page.</p>
+            </div>
+        <a name="selectInterval" />
+        <h2>Selecting an Interval</h2>
+            <p>To select an interval, use your mouse to click and drag an area on a segment.  The selected interval will 
+               become shaded green in color.  The corresponding area on other loaded maps will also become selected.  In the 
+               picture shown below, the interval was dragged on the left map.  The corresponding interval on the right map 
+               also becomes selected.</p>
+            <p><img class="screenshot" src="images/making-selections/interval-selected.png"></p>
+        <hr/>
+        <h2>Additional Notes</h2>
+            <ul>
+                <li>Except for maps, multiple items can be selected by holding the <em>&quot;CTRL&quot;</em> 
+                    key down while selecting elements.</li>
+            </ul>
+        <hr/>
+        <h2>See Also</h2>
+            <ul>
+                <li><a href="load-map.html">Load a Map</a></li>
+                <li><a href="load-annotation.html">Load Annotation</a></li>
+                <li><a href="changing-positions.html">Change Map Positions</a></li>
+                <li><a href="hiding.html">Hide Data</a></li>
+                <li><a href="view-details.html">View Details</a></li>
+            </ul>
+
+</body>
+</html>
+

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project basedir="." default="vcmap-loader" name="vcmap-loader">
+  <!--
+    In order to compile this project with unchecked warnings turned on, you
+    simply execute ant as follows:
+      ant -Dcarg="-Xlint:unchecked"
+  -->
+
+  <property name="build.sysclasspath" value="first"/>
+  <property name="build.dir" value="ant-build/classes"/>
+  <property name="src.dir" value="ant-build/src"/>
+  <property name="cwd.dir" value="."/>
+  <property name="api.dir" value="api"/>
+  <property name="lib.dir" value="lib"/>
+  <property name="bin.dir" value="."/>
+  <property name="carg" value="-nowarn"/>
+  <tstamp>
+    <format property="build.time" pattern="MMM dd, yyyy hh:mm aa"/>
+  </tstamp>
+
+  <path id="common.cp">
+    <fileset dir="${lib.dir}">
+      <include name="*.jar"/>
+    </fileset>
+  </path>
+
+  <!-- Performs a clean build -->
+  <target name="cleanbuild" depends="clean, vcmap-loader"/>
+  
+  <!-- Cleans the build -->
+  <target name="clean">
+    <delete verbose="true" dir="${api.dir}"/>
+    <delete verbose="true" dir="${build.dir}"/>
+    <delete verbose="true" dir="${src.dir}"/>
+  </target>
+
+  <!-- Prepares the directory structure for a compile -->
+  <target name="init">
+    <mkdir dir="${build.dir}"/>
+    <mkdir dir="${src.dir}"/>
+    <mkdir dir="${lib.dir}"/>
+    <exec executable="svnversion" outputproperty="build.revision">
+      <arg line="."/>
+    </exec>
+    <exec executable="bash" outputproperty="tags.doc">
+      <arg line="bin/tagcount"/>
+      <arg line="DOC"/>
+      <arg line="src/"/>
+    </exec>
+    <exec executable="bash" outputproperty="tags.todo">
+      <arg line="bin/tagcount"/>
+      <arg line="TODO"/>
+      <arg line="src/"/>
+    </exec>
+    <exec executable="bash" outputproperty="tags.fixme">
+      <arg line="bin/tagcount"/>
+      <arg line="FIXME"/>
+      <arg line="src/"/>
+    </exec>
+    <echo message="Build revision: ${build.revision}   Build time: ${build.time}" level="info"/>
+    <echo message="DOC tags in tree: ${tags.doc}" level="info"/>
+    <echo message="TODO tags in tree: ${tags.todo}" level="info"/>
+    <echo message="FIXME tags in tree: ${tags.fixme}" level="info"/>
+
+    <copy todir="${src.dir}">
+      <fileset dir="src" />
+    </copy>
+    <copy overwrite="true" todir="${src.dir}">
+      <fileset dir="src">
+        <include name="**/VCMapLoader.java"/>
+      </fileset>
+    </copy>
+    <replace dir="${src.dir}" token="@BUILD@" value="${build.revision}">
+      <include name="**/VCMapLoader.java"/>
+    </replace>
+    <replace dir="${src.dir}" token="@BUILD_DATE@" value="${build.time}">
+      <include name="**/VCMapLoader.java"/>
+    </replace>
+  </target>
+
+  <!-- Compiles the VCMap Server Utilities -->
+  <target depends="init" name="compile">
+    <javac classpathref="common.cp" debug="true" destdir="${build.dir}" 
+     includes="**/*.java"
+     source="1.5" srcdir="${src.dir}" deprecation="true">
+      <compilerarg value="${carg}" />
+    </javac>
+    <copy overwrite="true" todir="${build.dir}">
+      <fileset dir="${cwd.dir}">
+        <!--include name="images/*"/-->
+        <include name="data/*"/>
+        <!--include name="config/*"/-->
+      </fileset>
+    </copy>
+  </target>
+
+  <patternset id="vcmap-loader-classes">
+    <include name="bioneos/**/*.class"/>
+    <!--include name="images/*"/-->
+    <include name="data/*"/>
+    <!--include name="config/*"/-->
+  </patternset>
+
+  <!-- Creates the VCMap Jarfile -->
+  <target depends="init, compile" name="vcmap-loader">
+    <antcall target="create-jar">
+      <param name="param.basedir" value="${build.dir}"/>
+      <param name="param.fileset" value="vcmap-loader-classes"/>
+      <param name="param.jarname" value="vcmap-loader"/>
+      <param name="param.manifest" value="${cwd.dir}/manifest.mf"/>
+    </antcall>
+  </target>
+
+  <!-- 
+    Callable target used to create jar files 
+    Params:
+      param.jarname = Name of the jar file to create.
+      param.manifest = The manifest file to use for this jar.
+      param.basedir = The base directory from which the files to be jarred are
+                      referenced.
+      param.fileset = The fileset of the jars that should be included.
+  -->
+  <target name="create-jar">
+    <jar destfile="${bin.dir}/${param.jarname}.jar" manifest="${param.manifest}">
+      <fileset dir="${param.basedir}">
+        <patternset refid="${param.fileset}"/>
+      </fileset>
+    </jar>
+  </target>
+
+  <!-- Create the javadoc API webpages -->
+  <target name="api" depends="init">
+    <javadoc sourcepath="${cwd.dir}" classpathref="common.cp" 
+      destdir="${api.dir}" link="http://java.sun.com/j2se/1.5.0/docs/api/">
+      <packageset dir="${src.dir}" />
+    </javadoc>
+  </target>
+</project>
